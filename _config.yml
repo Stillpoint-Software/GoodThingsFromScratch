@@ -59,8 +59,8 @@ google-analytics: # Add your identifier. For example UA-99631805-1.
 #-------------------------------
 # Contant form Settings
 contact:
-  email: brentfarmer67@gmail.com # Add your email for contant form
-  description: Fill out the form below if you have any questions or to book an event. # Add a description of your form
+  email: mbbearov@gmail.com # Add your email for contant form 
+  description: Fill out the form below if you have any questions or would like to book an event. # Add a description of your form
 
 # NOTE
 # Mangila comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
