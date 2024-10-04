@@ -1,0 +1,79 @@
+backend:
+  name: github
+  repo: avarndell/goodthingsfromscratch # Path to your Github repository
+  branch: main # Branch to update (master by default)
+
+media_folder: "images/uploads" # Folder where user uploaded files should go
+
+collections: # A list of collections the CMS should be able to edit
+  - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Post" # Used in the UI, ie.: "New Post"
+    folder: "_posts" # The path to the folder where the documents are stored
+    sort: "date:desc" # Default is title:asc
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    fields: # The fields each document in this collection have
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - {
+          label: "Publish Date",
+          name: "date",
+          widget: "datetime",
+          format: "YYYY-MM-DD hh:mm:ss",
+        }
+      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Tags", name: "tags", widget: "string", required: false }
+  - name: "pages"
+    label: "Pages"
+    editor:
+      preview: false
+    files:
+      - label: "About Page"
+        name: "about"
+        file: "_pages/about.md"
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
+          - {
+              label: "Perma Link",
+              name: "permalink",
+              widget: "hidden",
+              default: "page",
+            }
+          - { label: "Title", name: "title", widget: "hidden", default: "page" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - {
+              label: "Image Header",
+              name: "image",
+              widget: "image",
+              required: true,
+            }
+      - label: "Inspiration Page"
+        name: "inspiration"
+        file: "_pages/inspiration.md"
+        fields:
+          - {
+              label: "Layout",
+              name: "layout",
+              widget: "hidden",
+              default: "page",
+            }
+          - {
+              label: "Perma Link",
+              name: "permalink",
+              widget: "hidden",
+              default: "page",
+            }
+          - { label: "Title", name: "title", widget: "hidden", default: "page" }
+          - { label: "Body", name: "body", widget: "markdown" }
+          - {
+              label: "Image Header",
+              name: "image",
+              widget: "image",
+              required: true,
+            } 
