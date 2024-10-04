@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: avarndell/goodthingsfromscratch # Path to your Github repository
+  repo: stillpoint-software/goodthingsfromscratch # Path to your Github repository
   branch: main # Branch to update (master by default)
 
 media_folder: "images/uploads" # Folder where user uploaded files should go
