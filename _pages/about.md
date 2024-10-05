@@ -1,13 +1,16 @@
 ---
 layout: page
-title: About
 permalink: /about/
-image: '/images/50.jpg'
+title: About
+image: /images/50.jpg
 ---
+Hi, my name is Meredith Blair Bearov. I have over two decades in high-end culinary and hospitality services. 
 
-Hi, my name is Meredith Blair Bearov. Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Conferam tecum, quam cuique verso rem subicias; Si longus, levis. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari. 
+My career in culinary hospitality includes pivotal stints at The Inn at Little Washington and Citronnelle; James Beard award-winning, Michelin Stars, Relais & Châteaux, and Relais & Gourmand properties. I have worked in all aspects of the industry, including fine dining, event planning and management, culinary retail, and sales. 
 
-> The longer I live, the more I realize that I am never wrong about anything, and that all the pains I have so humbly taken to verify my notions have only wasted my time!
+These experiences have equipped me with a unique perspective and an understanding of what it takes to plan and execute exceptional experiences.
+
+> Let things taste of what they are. - Alice Waters
 
 In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tarentum ad Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam rebus exquisitissimis ad epulandum. Non enim iam stirpis bonum quaeret, sed animalis. Qui autem esse poteris, nisi te amor ipse ceperit? Sic igitur in homine perfectio ista in eo potissimum, quod est optimum, id est in virtute, laudatur. An, partus ancillae sitne in fructu disseretur.
 
