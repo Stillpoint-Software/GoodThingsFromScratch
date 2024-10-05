@@ -19,6 +19,7 @@ author:
 author-social:
   - { icon: "ion-logo-twitter", link: "https://twitter.com" }
   - { icon: "ion-logo-facebook", link: "https://facebook.com" }
+  - { icon: "ion-logo-instagram", link: "https://instagram.com" }
   - { icon: "ion-logo-pinterest", link: "https://pinterest.com" }
 
 #-------------------------------
