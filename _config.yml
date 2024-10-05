@@ -36,10 +36,8 @@ hero:
 social:
   - { icon: "ion-logo-twitter", link: "https://twitter.com" }
   - { icon: "ion-logo-facebook", link: "https://facebook.com" }
-  - { icon: "ion-logo-dribbble", link: "https://dribbble.com" }
   - { icon: "ion-logo-instagram", link: "https://instagram.com" }
   - { icon: "ion-logo-pinterest", link: "https://pinterest.com" }
-  - { icon: "ion-logo-github", link: "https://github.com" }
 
 #-------------------------------
 # Comment Section (Disqus)
