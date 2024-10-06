@@ -47,7 +47,7 @@ collections: # A list of collections the CMS should be able to edit
             }
           - { label: "Title", name: "title", widget: "hidden", default: "page" }
           - { label: "Body", name: "body", widget: "markdown" }
-          - { label: "Image", name: "image", widget: "image", required: true }
+          - { label: "Image Header", name: "image", widget: "image", required: true }
       - label: "Inspiration Page"
         name: "inspiration"
         file: "_pages/inspiration.md"
@@ -66,9 +66,4 @@ collections: # A list of collections the CMS should be able to edit
             }
           - { label: "Title", name: "title", widget: "hidden", default: "page" }
           - { label: "Body", name: "body", widget: "markdown" }
-          - {
-              label: "Image Header",
-              name: "image",
-              widget: "image",
-              required: true,
-            } 
+          - { label: "Image Header", name: "image", widget: "image", required: true } 
