@@ -2,7 +2,7 @@
 layout: page
 permalink: /about/
 title: About
-image: /images/uploads/20230710_c.jpg
+image: /images/16.jpg
 ---
 Hi, my name is Meredith Blair Bearov. I have over two decades in high-end culinary and hospitality services. 
 
