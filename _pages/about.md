@@ -2,7 +2,7 @@
 layout: page
 permalink: /about/
 title: About
-image: /images/50.jpg
+image: /images/uploads/20230710_c.jpg
 ---
 Hi, my name is Meredith Blair Bearov. I have over two decades in high-end culinary and hospitality services. 
 
@@ -16,7 +16,7 @@ In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tar
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/images/21.jpg">
+    <img src="/images/uploads/20230710_c.jpg">
     <img src="/images/22.jpg">
     <img src="/images/20.jpg">
   </div>
