@@ -1,15 +1,13 @@
 backend:
   name: github
-  repo: stillpoint-software/goodthingsfromscratch # Path to your Github repository
-  branch: main # Branch to update (master by default)
-
+  repo: stillpoint-software/goodthingsfromscratch 
+  branch: main 
 media_folder: /images/uploads
 public_folder: /images/uploads
-    
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
-    folder: "_posts" # The path to the folder where the documents are stored
+    folder: "_posts" 
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
@@ -17,12 +15,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - {
-          label: "Publish Date",
-          name: "date",
-          widget: "datetime",
-          format: "YYYY-MM-DD hh:mm:ss",
-        }
+      - { label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss", }
       - { label: "Image", name: "image", widget: "image", required: false }
       - { label: "Tags", name: "tags", widget: "string", required: false }
   - name: "pages"
@@ -34,18 +27,8 @@ collections: # A list of collections the CMS should be able to edit
         name: "about"
         file: "_pages/about.md"
         fields:
-          - {
-              label: "Layout",
-              name: "layout",
-              widget: "hidden",
-              default: "page",
-            }
-          - {
-              label: "Perma Link",
-              name: "permalink",
-              widget: "hidden",
-              default: "page",
-            }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - { label: "Perma Link", name: "permalink", widget: "hidden", default: "page" }
           - { label: "Title", name: "title", widget: "hidden", default: "page" }
           - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Image Header", name: "image", widget: "image", required: true }
@@ -53,18 +36,8 @@ collections: # A list of collections the CMS should be able to edit
         name: "inspiration"
         file: "_pages/inspiration.md"
         fields:
-          - {
-              label: "Layout",
-              name: "layout",
-              widget: "hidden",
-              default: "page",
-            }
-          - {
-              label: "Perma Link",
-              name: "permalink",
-              widget: "hidden",
-              default: "page",
-            }
+          - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+          - { label: "Perma Link", name: "permalink", widget: "hidden", default: "page" }
           - { label: "Title", name: "title", widget: "hidden", default: "page" }
           - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Image Header", name: "image", widget: "image", required: true } 
