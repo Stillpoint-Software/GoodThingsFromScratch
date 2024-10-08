@@ -12,7 +12,7 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 author:
   name: Meredith Blair Bearov
   bio: Hi, my name is Meredith Blair Bearov. I’ve spent over 20 years in the world of high-end food and hospitality, doing everything from fine dining and event planning to culinary retail and sales. Along the way, I’ve had the chance to work at some pretty amazing places. These experiences have equipped me with a unique perspective and an understanding of what it takes to plan and execute exceptional experiences.
-  image: "/images/food1.jpg"
+  image: "/images/upload/food1.jpg"
   avatar: "/images/15.jpg"
 
 # Example of adding a new link to the section author - {icon: "ion-logo-github", link: "https://github.com"}
@@ -25,7 +25,7 @@ author-social:
 #-------------------------------
 # Hero Settings
 hero:
-  hero__image: "/images/food3.jpg"
+  hero__image: "/images/uploads/food3.jpg"
   hero__title: "Welcome to Good Things from Scratch"
   hero__description: "Homemade Happiness in Every Dish"
 
