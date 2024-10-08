@@ -2,8 +2,8 @@ backend:
   name: github
   repo: stillpoint-software/goodthingsfromscratch 
   branch: main 
-media_folder: images/uploads
-public_folder: images/uploads
+media_folder: /static/images/uploads
+public_folder: /images/uploads
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
@@ -11,8 +11,6 @@ collections: # A list of collections the CMS should be able to edit
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents in this collection
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    media_folder: images/uploads
-    public_folder: images/uploads
     fields: # The fields each document in this collection have
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
@@ -28,8 +26,6 @@ collections: # A list of collections the CMS should be able to edit
       - label: "About Page"
         name: "about"
         file: "_pages/about.md"
-        media_folder: images/uploads
-        public_folder: images/uploads
         fields:
           - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
           - { label: "Perma Link", name: "permalink", widget: "hidden", default: "page" }
