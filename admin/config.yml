@@ -3,8 +3,9 @@ backend:
   repo: stillpoint-software/goodthingsfromscratch # Path to your Github repository
   branch: main # Branch to update (master by default)
 
-media_folder: "images/uploads" # Folder where user uploaded files should go
-
+media_folder: /images/uploads
+public_folder: /images/uploads
+    
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" # Used in the UI, ie.: "New Post"
