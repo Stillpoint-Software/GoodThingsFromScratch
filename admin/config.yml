@@ -3,7 +3,7 @@ backend:
   repo: stillpoint-software/goodthingsfromscratch 
   branch: main 
 
-media_folder: "images/uploads/"
+media_folder: "/images/uploads/"
 public_folder: "/"
 
 collections: # A list of collections the CMS should be able to edit
