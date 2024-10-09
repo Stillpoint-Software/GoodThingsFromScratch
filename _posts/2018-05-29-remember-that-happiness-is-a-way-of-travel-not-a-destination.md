@@ -5,6 +5,7 @@ date: 2024-10-03 04:13:00
 image: /images/uploads/20230710_c.jpg
 tags: Jekyll
 ---
+
 Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis.
 Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam.
 
@@ -26,7 +27,7 @@ In omni enim arte vel studio vel quavis scientia vel in ipsa virtute optimum qui
 An, partus ancillae sitne in fructu habendus, disseretur inter principes civitatis, P. Ut in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sit conservatio sui, necesse est huic partes quoque sui caras suo genere.
 
 ![Good morning]({{site.baseurl}}/images/18.jpg)
-*Photo by [Alex Geerts](https://unsplash.com/photos/NuO6iTBkHxE) on Unsplash*
+_Photo by [Alex Geerts](https://unsplash.com/photos/NuO6iTBkHxE) on Unsplash_
 
 1. Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem.
 2. Mihi quidem Homerus huius modi quiddam vidisse videatur.
