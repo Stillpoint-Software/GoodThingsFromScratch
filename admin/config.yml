@@ -3,8 +3,8 @@ backend:
   repo: stillpoint-software/goodthingsfromscratch 
   branch: main 
   
-media_folder: "/images/uploads" # Folder where user uploaded files should go  
-public_folder: "/images/uploads"
+media_folder: /images/uploads # Folder where user uploaded files should go  
+public_folder: /images/uploads
 
 collections: # A list of collections the CMS should be able to edit
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
