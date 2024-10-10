@@ -9,12 +9,20 @@ images:
   - path: /images/uploads/food3.jpg
     text: Some text 2
   - path: /images/uploads/food4.jpg
-    text: Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit?
+    text: Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec
+      et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius,
+      qui semel fuit?
   - path: /images/uploads/food5.jpg
     text: Some text 4
   - path: /images/uploads/food6.jpg
     text: Some text 5
   - path: /images/uploads/food7.jpg
-    text: Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit?
---- 
+    text: Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec
+      et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius,
+      qui semel fuit?
+galleryImages:
+  - path: /images/uploads/food4.jpg
+  - path: /images/uploads/food8.jpg
+---
+ 
 {% include gallery-content.html %}
