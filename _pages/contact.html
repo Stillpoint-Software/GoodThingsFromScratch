@@ -13,10 +13,12 @@ image: "/images/uploads/food6.jpg"
   </div>
   <form
     class="form"
-    action="{% if site.contact.email %}https://formspree.io/f/xdkoneyj{% else %}#{% endif %}"
+    name="contact" data-netlify="true" action="/thanks.html" method="post">
+    <!-- action="{% if site.contact.email %}https://formspree.io/f/xdkoneyj{% else %}#{% endif %}"
     method="POST"
-  >
+  > -->
     <div class="form__group">
+
       <label class="form__label screen-reader-text" for="form-name"
         >Your Name</label
       >

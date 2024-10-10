@@ -1,0 +1,22 @@
+<div class="container">
+  <div class="row">
+    <div class="col col-12 col-d-10 col-m-12 push-m-0 push-d-1">
+      <div class="contaniner__inner">
+        <div class="row grid">
+          {% if page.images %}
+          {% for image in page.images %}
+          <div class="article col col-4 col-d-6 col-t-12 col-m-12 grid__post animate">
+            <div class="article__content">
+              <img src="{{ image.path | prepend: site.baseurl }}">
+              <div class="article__excerpt">
+                {{ image.text | strip_html | truncate: 110 }}
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

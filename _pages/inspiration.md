@@ -3,19 +3,18 @@ layout: page
 permalink: /Inspiration/
 title: Inspiration
 image: /images/uploads/food1.jpg
----
-<div class="gallery-box">
-  <div class="gallery">
-    <img src="/images/21.jpg"> 
-    <img src="/images/22.jpg">
-    <img src="/images/20.jpg">
-    <img src="/images/01.jpg">
-   <img src="/images/02.jpg">
-  <img src="/images/03.jpg">
-  </div>
-</div>
-{: .gallery2 }
-![fead](/images/uploads/food1.jpg)
-![fead](/images/uploads/food2.jpg)
-![image](/images/uploads/food3.jpg)
-![image](/images/uploads/food4.jpg)
+images:
+  - path: /images/uploads/food2.jpg
+    text: Some text 1
+  - path: /images/uploads/food3.jpg
+    text: Some text 2
+  - path: /images/uploads/food4.jpg
+    text: Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit?
+  - path: /images/uploads/food5.jpg
+    text: Some text 4
+  - path: /images/uploads/food6.jpg
+    text: Some text 5
+  - path: /images/uploads/food7.jpg
+    text: Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit?
+--- 
+{% include gallery-content.html %}
