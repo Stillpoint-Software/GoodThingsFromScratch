@@ -20,9 +20,6 @@ images:
     text: Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec
       et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius,
       qui semel fuit?
-galleryImages:
-  - path: /images/uploads/food4.jpg
-  - path: /images/uploads/food8.jpg
 ---
  
 {% include gallery-content.html %}
