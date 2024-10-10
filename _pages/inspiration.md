@@ -5,14 +5,12 @@ title: Inspiration
 image: /images/uploads/food1.jpg
 images:
   - path: /images/uploads/food3.jpg
-    texts: This is another sub title
-    text: test1
+    text: This is another sub title
   - path: /images/uploads/food2.jpg
-    texts: This is a sub title
     text: test
   - path: /images/uploads/food6.jpg
-    texts: Love tomatoes
+    text: Love tomatoes
   - path: /images/uploads/food7.jpg
-    texts: Main event
+    text: Main event
 ---
 {% include gallery-content.html %}
