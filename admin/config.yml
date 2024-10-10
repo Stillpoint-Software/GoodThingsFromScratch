@@ -47,13 +47,14 @@ collections: # A list of collections the CMS should be able to edit
             summary: '{{fields.path}} - {{fields.text}}'
             fields: 
               - { label: Image, name: path, widget: image}
-          - label: "Gallery Titles"
-            name: "text"
-            widget: "list"
-            summary: '{{fields.text}}'
-            allow_add: true
-            fields: 
-              - { label: "Titles", name: "texts", widget: "hidden"}
+              - { label: "Titles", name: "text", widget: "hidden", default: "page" }
+          # - label: "Gallery Titles"
+          #   name: "text"
+          #   widget: "list"
+          #   summary: '{{fields.text}}'
+          #   allow_add: true
+          #   fields: 
+          #     - { label: "Titles", name: "texts", widget: "hidden", default: "page" }
          
           # - label: "Gallery", name: "images", widget: "object"
           #   fields: 
