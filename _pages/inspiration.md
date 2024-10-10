@@ -1,8 +1,11 @@
 ---
+texts: null
 layout: page
 permalink: /Inspiration/
 title: Inspiration
-image: /images/uploads/food1.jpg
+text:
+  - texts: image 1
+  - texts: Image 2
 images:
   - path: /images/uploads/food2.jpg
     text: Some text 1
@@ -20,7 +23,10 @@ images:
     text: Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec
       et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius,
       qui semel fuit?
-texts:
+image: /images/uploads/food1.jpg
+Images:
+  - path: /images/uploads/food2.jpg
+  - path: /images/uploads/food3.jpg
 ---
  
 {% include gallery-content.html %}
