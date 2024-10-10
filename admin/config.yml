@@ -42,10 +42,19 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Title", name: "title", widget: "hidden", default: "page" }
           - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Image Header", name: "image", widget: "image", required: true } 
-      - label: "Gallery"
-        name: "galleryImages"
-        widget: "list"
-        summary: '{{fields.path}} - {{fields.text}}'
-        fields: 
-          - { label: "Gallery Images", name: "path", widget: "image", required: true, allow_multiple: true } 
-          - { label: "Gallery Titles", name: "text", widget: "image", required: true} 
+          - label: "Gallery"
+            name: "galleryImages"
+            widget: "list"
+            summary: '{{fields.images}}'
+            fields: 
+              - { label: Image, name: path, widget: image}
+              - { label: "Gallery Titles", name: "text", widget: "hidden"} 
+
+         
+
+
+
+          # - label: "Gallery", name: "images", widget: "object"
+          #   fields: 
+          #   - { label: "Gallery Images", name: "path", widget: "image", allow_multiple: true } 
+          #   - { label: "Gallery Titles", name: "text", widget: "hidden"} 
