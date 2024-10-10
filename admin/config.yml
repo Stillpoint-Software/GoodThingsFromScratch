@@ -45,13 +45,13 @@ collections: # A list of collections the CMS should be able to edit
             name: "Images"
             widget: "list"
             summary: '{{field.path}}'
-            field: 
+            fields: 
               - { label: Image, name: path, widget: image}
           - label: "Gallery Titles"
             name: "text"
             widget: "list"
             summary: '{{field.text}}'
-            field: 
+            fields: 
               - { label: "Titles", name: "text", widget: "hidden"} 
 
          
