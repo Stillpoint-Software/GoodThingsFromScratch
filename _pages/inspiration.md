@@ -3,7 +3,7 @@ layout: page
 permalink: /Inspiration/
 title: Inspiration
 image: /images/uploads/food1.jpg
-text:
+texts:
   - text: image 1
   - text: Image 2
 Images:
