@@ -14,5 +14,7 @@ images:
     text: Love tomatoes
   - path: /images/uploads/food8.jpg
     text: Event
+  - path: /images/uploads/food5.jpg
+    text: event 2
 ---
 {% include gallery-content.html %}
