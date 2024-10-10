@@ -42,4 +42,4 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Title", name: "title", widget: "hidden", default: "page" }
           - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Image Header", name: "image", widget: "image", required: true } 
-          - { label: "Image Array", name: "image-array", widget: "image", required: true } 
+          - { label: "Gallery Images", name: "images", widget: "list", required: true, summary: {{fields.images.title}} } 
