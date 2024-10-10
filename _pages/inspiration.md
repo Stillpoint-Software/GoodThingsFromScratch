@@ -3,7 +3,7 @@ layout: page
 permalink: /Inspiration/
 title: Inspiration
 image: /images/uploads/food1.jpg
-Images:
+images:
   - path: /images/uploads/food2.jpg
     text: test
     texts: This is a sub title

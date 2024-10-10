@@ -42,7 +42,7 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Title", name: "title", widget: "hidden", default: "page" }
           - { label: "Image Header", name: "image", widget: "image", required: true } 
           - label: "Gallery"
-            name: "Images"
+            name: "images"
             widget: "list"
             fields:
               - { label: "Image", name: "path", widget: "image" }
