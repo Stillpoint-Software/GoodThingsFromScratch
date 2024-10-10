@@ -41,51 +41,20 @@ collections: # A list of collections the CMS should be able to edit
           - { label: "Perma Link", name: "permalink", widget: "hidden", default: "page" }
           - { label: "Title", name: "title", widget: "hidden", default: "page" }
           - { label: "Image Header", name: "image", widget: "image", required: true } 
-          - label: Gallery
-            name: gallery
-            widget: object
-            fields:
-              - label: "Gallery"
-                name: "Images"
-                widget: "list"
-                summary: '{{fields.path}} - {{fields.text}}'
-                fields: 
-                  - { label: Image, name: path, widget: image}
-                  - { label: "Titles", name: "text", widget: "hidden"}
-                
-
-
-
-
-
-          # - label: "Gallery"
-          #   name: "Images"
-          #   widget: "list"
-          #   summary: '{{fields.path}} - {{fields.text}}'
-          #   fields: 
-          #     - { label: Image, name: path, widget: image}
-          #     - { label: "Titles", name: "text", widget: "hidden"} 
-          # - label: "Gallery Titles"
-          #   name: "text"
-          #   widget: "list"
-          #   summary: '{{fields.text}}'
-          #   allow_add: true
-          #   fields: 
-          #     - { label: "Titles", name: "texts", widget: "hidden"}
-          # - label: "Testimonials"
-          #   name: "testimonials"
-          #   widget: "list"
-          #   summary: '{{fields.quote}} - {{fields.author.name}}'
-          #   fields:
-          #     - {label: Quote, name: quote, widget: string, default: "Everything is awesome!"}
-          #     - label: Author
-          #       name: author
-          #       widget: object
-          #       fields:
-          #         - {label: Name, name: name, widget: string, default: "Emmet"}
-          #         - {label: Avatar, name: avatar, widget: image, default: "/img/emmet.jpg"}
-
-
+          - label: "Gallery"
+            name: "Images"
+            widget: "list"
+            summary: '{{fields.path}} - {{fields.text}}'
+            fields: 
+              - { label: Image, name: path, widget: image}
+          - label: "Gallery Titles"
+            name: "text"
+            widget: "list"
+            summary: '{{fields.text}}'
+            allow_add: true
+            fields: 
+              - { label: "Titles", name: "texts", widget: "hidden"}
+         
           # - label: "Gallery", name: "images", widget: "object"
           #   fields: 
           #   - { label: "Gallery Images", name: "path", widget: "image", allow_multiple: true } 
