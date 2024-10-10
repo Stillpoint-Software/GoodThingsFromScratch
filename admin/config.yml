@@ -45,8 +45,7 @@ collections: # A list of collections the CMS should be able to edit
       - label: "Gallery"
         name: "galleryImages"
         widget: "list"
-        summary: '{{fields.images}}'
+        summary: '{{fields.path}} - {{fields.text}}'
         fields: 
-          - {label: Image, name: images, widget: image}
           - { label: "Gallery Images", name: "path", widget: "image", required: true, allow_multiple: true } 
           - { label: "Gallery Titles", name: "text", widget: "image", required: true} 
