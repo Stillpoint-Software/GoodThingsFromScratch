@@ -8,9 +8,11 @@ images:
     text: This is another sub title
   - path: /images/uploads/food2.jpg
     text: test
-  - path: /images/uploads/food6.jpg
-    text: Love tomatoes
   - path: /images/uploads/food7.jpg
     text: Main event
+  - path: /images/uploads/food6.jpg
+    text: Love tomatoes
+  - path: /images/uploads/food8.jpg
+    text: Event
 ---
 {% include gallery-content.html %}
