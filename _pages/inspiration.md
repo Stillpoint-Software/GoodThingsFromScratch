@@ -21,5 +21,5 @@ images:
 ---
 {% include gallery-content.html %}
 
-<!-- {% if page.images %}{% include image-gallery-index.html %}{% endif %} -->
+{% if page.images %}{% include image-gallery-index.html %}{% endif %}
 
