@@ -16,7 +16,7 @@
         display: block;
     }
 
-    .image-gallery-index a span{
+    .image-gallery-index span{
         display: block;
         text-align: left;
         margin: 0 0 15px;
@@ -29,9 +29,9 @@
     {% for item in page.images %}
     <a href="{{ item.path }}" title="{{ item.text }}">
         <img src="//wsrv.nl/?url={{ site.url | absolute_url }}{{ item.path }}&w=400&h=300&output=jpg&q=50" />
-        <span >
-            {{ item.text | strip_html | truncate:110 }}
-        </span>
     </a>
+    <span>
+        {{ item.text | strip_html | truncate:110 }}
+    </span>
     {% endfor %}
 </p>
