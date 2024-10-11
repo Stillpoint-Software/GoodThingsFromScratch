@@ -17,7 +17,7 @@ collections: # A list of collections the CMS should be able to edit
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss", }
-      - { label: "Image", name: "image", widget: "image", required: false }
+      - { label: "Asset", name: "image", widget: "image", required: false }
       - { label: "Tags", name: "tags", widget: "string", required: false }
   - name: "pages"
     label: "Pages"
@@ -45,5 +45,5 @@ collections: # A list of collections the CMS should be able to edit
             name: "images"
             widget: "list"
             fields:
-              - { label: "Image", name: "path", widget: "image" }
+              - { label: "Asset", name: "path", widget: "image" }
               - { label: "Title", name: "text", widget: "string" }
