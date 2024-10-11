@@ -5,7 +5,7 @@ title: Inspiration
 image: /assets/food1.jpg
 images:
   - path: /assets/food6.jpg
-    text: Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt.
+    text: Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum.
   - path: /assets/food2.jpg
     text: test
   - path: /assets/food3.jpg
