@@ -8,7 +8,7 @@
         float: left;
         display: block;
         margin: 0 0 1% 1%;
-        width: 19%;
+        width: 30%;
         text-decoration: none !important;
     }
 
@@ -17,10 +17,11 @@
         display: block;
     }
 
-    .image-gallery-index span {
-        display: block;
+    .image-gallery-index a span {
+         display: block;
         text-align: left;
         font-size: 15px;
+        padding: 3px 0;
         line-height: 25px;
         color: #757679
     }
@@ -29,9 +30,10 @@
     {% for item in page.images %}
     <a href="{{ item.path }}" title="{{ item.text }}">
         <img src="//wsrv.nl/?url={{ site.url | absolute_url }}{{ item.path }}&w=400&h=300&output=jpg&q=50" />
-    </a>
-    <span>
+           <span>
         {{ item.text | strip_html | truncate:110 }}
     </span>
+    </a>
+ 
     {% endfor %}
 </p>
