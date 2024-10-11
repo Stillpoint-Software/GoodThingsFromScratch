@@ -2,7 +2,7 @@
 layout: post
 title: Believe and act as if it were impossible to fail
 date: 2018-11-05 03:01:00
-image: '/images/uploads/food4.jpg'
+image: '/assets/food4.jpg'
 tags: Work
 ---
 
@@ -15,9 +15,9 @@ In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tar
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/images/21.jpg">
-    <img src="/images/22.jpg">
-    <img src="/images/20.jpg">
+    <img src="/assets/21.jpg">
+    <img src="/assets/22.jpg">
+    <img src="/assets/20.jpg">
   </div>
   <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
 </div>
@@ -26,7 +26,7 @@ In omni enim arte vel studio vel quavis scientia vel in ipsa virtute optimum qui
 
 An, partus ancillae sitne in fructu habendus, disseretur inter principes civitatis, P. Ut in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sit conservatio sui, necesse est huic partes quoque sui caras suo genere.
 
-![Good morning]({{site.baseurl}}/images/18.jpg)
+![Good morning]({{site.baseurl}}/assets/18.jpg)
 _Photo by [Alex Geerts](https://unsplash.com/photos/NuO6iTBkHxE) on Unsplash_
 
 1. Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem.

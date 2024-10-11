@@ -2,7 +2,7 @@
 layout: page
 title: Style Guide
 permalink: /styleguide/
-image: '/images/26.jpg'
+image: '/assets/26.jpg'
 published: false
 ---
 
@@ -104,15 +104,15 @@ A paragraph looks like this — In qua quid est boni praeter summam voluptatem, 
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/images/04.jpg">
-    <img src="/images/06.jpg">
-    <img src="/images/05.jpg">
-    <img src="/images/07.jpg">
-    <img src="/images/08.jpg">
-    <img src="/images/09.jpg">
+    <img src="/assets/04.jpg">
+    <img src="/assets/06.jpg">
+    <img src="/assets/05.jpg">
+    <img src="/assets/07.jpg">
+    <img src="/assets/08.jpg">
+    <img src="/assets/09.jpg">
   </div>
   <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
 </div>
 
-![]({{site.baseurl}}/images/25.jpg)
+![]({{site.baseurl}}/assets/25.jpg)
 *Beautiful place / [Unsplash](https://unsplash.com/)*

@@ -5,4 +5,5 @@
 {% include_relative vendors/lazyload.min.js %}
 {% include_relative vendors/transition.js %}
 {% include_relative vendors/zoom.min.js %}
+{% include_relative vendors/lightbox.js %}
 {% include_relative common.js %}

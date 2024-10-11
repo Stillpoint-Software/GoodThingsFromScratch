@@ -2,7 +2,7 @@
 layout: post
 title: A journey of a thousand leagues begins beneath one’s feet
 date: 2024-10-09 11:20:00
-image: /images/uploads/food8.jpg
+image: /assets/food8.jpg
 tags: Work
 ---
 Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis.
@@ -14,9 +14,9 @@ In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tar
 
 <div class="gallery-box">
   <div class="gallery">
-    <img src="/images/21.jpg">
-    <img src="/images/22.jpg">
-    <img src="/images/20.jpg">
+    <img src="/assets/21.jpg">
+    <img src="/assets/22.jpg">
+    <img src="/assets/20.jpg">
   </div>
   <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
 </div>
@@ -25,7 +25,7 @@ In omni enim arte vel studio vel quavis scientia vel in ipsa virtute optimum qui
 
 An, partus ancillae sitne in fructu habendus, disseretur inter principes civitatis, P. Ut in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sit conservatio sui, necesse est huic partes quoque sui caras suo genere.
 
-![Good morning]({{site.baseurl}}/images/18.jpg)
+![Good morning]({{site.baseurl}}/assets/18.jpg)
 *Photo by [Alex Geerts](https://unsplash.com/photos/NuO6iTBkHxE) on Unsplash*
 
 1. Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem.
