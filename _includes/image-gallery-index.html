@@ -23,26 +23,13 @@
         padding: 3px 0;
     }
 </style>
-
-<div class="container">
-    <div class="row">
-        <div class="col col-12 col-d-10 col-m-12 push-m-0 push-d-1">
-            <div class="contaniner__inner">
-                <div class="row grid">
-                        {% for item in page.images %}
-                        <div class="article col col-4 col-d-6 col-t-12 col-m-12 image-gallery-index">
-                            <div class="article__content">
-                                <a href="{{ item.path }}" title="{{ item.text }}">
-                                    <img src="//wsrv.nl/?url={{ site.url | absolute_url }}{{ item.path }}&w=400&h=600&output=jpg&q=50" />
-                                    <span class="article__excerpt">
-                                        {{ image.text | strip_html | truncate: 50 }}
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                        {% endfor %}
-                </div>
-            </div>
+<p class="image-gallery-index">
+    {% for item in page.images %}
+    <a href="{{ item.path }}" title="{{ item.text }}">
+        <img src="//wsrv.nl/?url={{ site.url | absolute_url }}{{ item.path }}&w=600&h=600&output=jpg&q=50&t=square" />
+        <div class="article__excerpt">
+            {{ image.text | strip_html | truncate: 50 }}
         </div>
-    </div>
-</div>
+    </a>
+    {% endfor %}
+</p>
