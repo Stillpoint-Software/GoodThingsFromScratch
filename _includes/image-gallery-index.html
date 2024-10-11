@@ -27,8 +27,7 @@
 <p class="image-gallery-index">
     {% for item in page.images %}
     <a href="{{ item.path }}" title="{{ item.text }}">
-          <!-- <img src="//wsrv.nl/?url={{site.url | absolute.url}}{{item.path}}&w=300&h=300&t=square"> -->
-          <img src="//wsrv.nl/?url={{ site.url | absolute_url }}{{ item.path }}&w=400&h=400&output=jpg&q=50" />
+        <img src="//wsrv.nl/?url={{ site.url | absolute_url }}{{ item.path }}&w=400&h=600&output=jpg&q=50" />
         <span class="article__excerpt">
             {{ item.text | truncate: 50}}
         </span>
