@@ -21,7 +21,7 @@ images:
 ---
 {% if page.images %}{% include image-gallery-index.html %}{% endif %}
 
-{% include gallery-content.html %}
+<!-- {% include gallery-content.html %} -->
 
 
 
