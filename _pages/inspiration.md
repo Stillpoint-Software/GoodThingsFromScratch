@@ -16,6 +16,7 @@ images:
     text: Event
   - path: /assets/food5.jpg
     text: event 2
+  - path: /assets/18.jpg
+    text: Sample
 ---
-
 {% include gallery-content.html %}
