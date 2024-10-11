@@ -8,7 +8,7 @@
         float: left;
         display: block;
         margin: 0 0 1% 1%;
-        width: 30%;
+        width: 50%;
         text-decoration: none !important;
     }
 
@@ -29,7 +29,7 @@
 <p class="image-gallery-index">
     {% for item in page.images %}
     <a href="{{ item.path }}" title="{{ item.text }}">
-        <img src="//wsrv.nl/?url={{ site.url | absolute_url }}{{ item.path }}&output=jpg&q=50" />
+        <img src="//wsrv.nl/?url={{ site.url | absolute_url }}{{ item.path }}&w=400&h=300&output=jpg&q=50" />
         <span >
             {{ item.text | strip_html | truncate:110 }}
         </span>
