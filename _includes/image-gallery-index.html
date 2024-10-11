@@ -4,19 +4,6 @@
         /* margin-left: -1% !important; */
     }
 
-    .image-gallery-index a img {
-        width: 100%;
-        display: block;
-    }
-
-    .image-gallery-index a span {
-         display: block;
-        text-align: left;
-        font-size: 15px;
-        padding: 3px 0;
-        line-height: 25px;
-        color: #757679
-    } 
     .image-gallery-index a {
         float: left;
         display: block;
@@ -25,9 +12,21 @@
         text-decoration: none !important;
     }
 
+    .image-gallery-index a img {
+        width: 100%;
+        display: block;
+    }
 
-</style>
-<p class="image-gallery-index">
+    .image-gallery-index a span {
+        display: block;
+        text-align: left;
+        font-size: 15px;
+        padding: 3px 0;
+        line-height: 25px;
+        color: #757679
+    } 
+   </style>
+<p class="gallery">
     {% for item in page.images %}
     <a href="{{ item.path }}" title="{{ item.text }}">
         <img src="//wsrv.nl/?url={{ site.url | absolute_url }}{{ item.path }}&output=jpg&q=50" />
