@@ -17,5 +17,6 @@ images:
   - path: /images/uploads/food5.jpg
     text: event 2
 ---
-{% include gallery-content.html %}
-{% include image-gallery.html %}
+
+<!-- {% include gallery-content.html %} -->
+{% include image-gallery.html folder="/images/uploads" %}
