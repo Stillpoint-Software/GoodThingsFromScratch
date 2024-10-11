@@ -24,12 +24,13 @@
     }
 </style>
 
-<p class="image-gallery-index">{% for item in page.images %}
-    <a href="{{ item.path }}" title="{{ item.title }}">
+<p class="image-gallery-index">
+    {% for item in page.images %}
+    <a href="{{ item.path }}" title="{{ item.text }}">
           <!-- <img src="//wsrv.nl/?url={{site.url | absolute.url}}{{item.path}}&w=300&h=300&t=square"> -->
           <img src="//wsrv.nl/?url={{ site.url | absolute_url }}{{ item.path }}&w=300&h=300&output=jpg&q=50&t=square" />
         <span>
-            {{ item.title}}
+            {{ item.text }}
         </span>
     </a>
     {% endfor %}
