@@ -19,7 +19,9 @@ images:
   - path: /assets/18.jpg
     text: Sample
 ---
+{% if page.images %}{% include image-gallery-index.html %}{% endif %}
+
 {% include gallery-content.html %}
 
-{% if page.images %}{% include image-gallery-index.html %}{% endif %}
+
 
