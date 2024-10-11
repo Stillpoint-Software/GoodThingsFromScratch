@@ -28,9 +28,9 @@
     {% for item in page.images %}
     <a href="{{ item.path }}" title="{{ item.text }}">
           <!-- <img src="//wsrv.nl/?url={{site.url | absolute.url}}{{item.path}}&w=300&h=300&t=square"> -->
-          <img src="//wsrv.nl/?url={{ site.url | absolute_url }}{{ item.path }}&w=400&h=300&output=jpg&q=50&t=square" />
+          <img src="//wsrv.nl/?url={{ site.url | absolute_url }}{{ item.path }}&w=400&h=300&output=jpg&q=50" />
         <span>
-            {{ item.text }}
+            {{ item.text | truncate: 50}}
         </span>
     </a>
     {% endfor %}
