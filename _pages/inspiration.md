@@ -14,3 +14,4 @@ images:
     text: Main event
 ---
 {% include gallery-content.html %}
+{% include image-gallery.html %}
