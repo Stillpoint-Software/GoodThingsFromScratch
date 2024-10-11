@@ -4,7 +4,7 @@
         margin-left: -1% !important;
     }
 
-        .image-gallery-index a img {
+    .image-gallery-index a img {
         width: 100%;
         display: block;
     }
@@ -17,7 +17,7 @@
         line-height: 25px;
         color: #757679
     } 
-    /* .image-gallery-index a {
+    .image-gallery-index a {
         float: left;
         display: block;
         margin: 0 0 1% 1%;
@@ -25,12 +25,12 @@
         text-decoration: none !important;
     }
 
-*/
+
 </style>
 <p class="image-gallery-index">
     {% for item in page.images %}
     <a href="{{ item.path }}" title="{{ item.text }}">
-        <img src="//wsrv.nl/?url={{ site.url | absolute_url }}{{ item.path }}&w=400&h=300&output=jpg&q=50" />
+        <img src="//wsrv.nl/?url={{ site.url | absolute_url }}{{ item.path }}&output=jpg&q=50" />
            <span>
         {{ item.text | strip_html | truncate:110 }}
     </span>
