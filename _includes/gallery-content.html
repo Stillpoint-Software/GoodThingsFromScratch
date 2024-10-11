@@ -7,9 +7,9 @@
           {% for image in page.images %}
           <div class="article col col-4 col-d-6 col-t-12 col-m-12 grid__post animate">
             <div class="article__content">
-              <img src="//wsrv.nl/?url={{ site.url | absolute_url }}{{ image.path }}&w=300&h=300&output=jpg&q=50&t=square">
+              <img src="//wsrv.nl/?url={{ site.url | absolute_url }}{{ image.path }}&w=400&h=400&output=jpg&q=50&t=square">
               <div class="article__excerpt">
-                {{ image.text |   strip_html | truncate: 110 }}
+                {{ image.text | strip_html | truncate: 50 }}
               </div>
             </div>
           </div>
