@@ -20,3 +20,6 @@ images:
     text: Sample
 ---
 {% include gallery-content.html %}
+
+<!-- {% if page.images %}{% include image-gallery-index.html %}{% endif %} -->
+
