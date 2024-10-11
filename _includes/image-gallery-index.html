@@ -26,10 +26,10 @@
 <p class="image-gallery-index">
     {% for item in page.images %}
     <a href="{{ item.path }}" title="{{ item.text }}">
-        <img src="//wsrv.nl/?url={{ site.url | absolute_url }}{{ item.path }}&w=600&h=600&output=jpg&q=50&t=square" />
-        <div class="article__excerpt">
-            {{ image.text | strip_html | truncate: 50 }}
-        </div>
+        <img src="//wsrv.nl/?url={{ site.url | absolute_url }}{{ item.path }}&w=600&h=300&output=jpg&q=50&t=square" />
+        <span class="article__excerpt">
+            {{ image.text | strip_html | truncate:110 }}
+        </span>
     </a>
     {% endfor %}
 </p>
