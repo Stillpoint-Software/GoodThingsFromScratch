@@ -249,7 +249,7 @@ table td {
   }
 }
 
-.gallery {
+.gallery2 {
   display: grid;
   grid-template-columns: repeat(3, auto);
   justify-content: center;
@@ -259,29 +259,6 @@ table td {
     width: 100%;
     height: auto;
   }
-}
-
-/* customized gallery*/
-.gallery2 {
-  display: grid;
-  grid-template-columns: repeat(3, auto); /* 3 columns */
-  justify-content: center;
-  align-content: center;
-  gap: 10px; /* Space between the items */
-}
-
-.gallery2 img {
-  width: 100%; /* Make images responsive */
-  height: auto;
-  border-radius: 5px; /* Optional: rounded corners */
-}
-
-.gallery2 p,
-.gallery2 strong {
-  text-align: center; /* Center the captions */
-  margin-top: 10px;
-  font-size: 16px; /* Font size for the captions */
-  color: $dark; /* Dark color for better readability */
 }
 
 .button {

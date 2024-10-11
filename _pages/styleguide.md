@@ -103,7 +103,7 @@ A paragraph looks like this — In qua quid est boni praeter summam voluptatem, 
 ## Images
 
 <div class="gallery-box">
-  <div class="gallery">
+  <div class="gallery2">
     <img src="/assets/04.jpg">
     <img src="/assets/06.jpg">
     <img src="/assets/05.jpg">
