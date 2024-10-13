@@ -2,7 +2,7 @@
 #-------------------------------
 # General Site Settings
 title: Good Things from Scratch
-logo: "/assets/logo.svg" # You can add own logo. For example '/assets/logo.png'.
+logo: "/assets/profile-picture.png" # You can add own logo. For example '/assets/logo.png'.
 description: Homemade Happiness in Every Dish
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://goodthingsfromscratch.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
