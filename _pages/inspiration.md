@@ -2,22 +2,28 @@
 layout: gallery
 permalink: /Inspiration/
 title: Inspiration
-image: /assets/IMG_20241013_125647.jpg
+image: /assets/food1.jpg
 images:
-  - path: /assets/food6.jpg
-    text: Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum.
-  - path: /assets/food2.jpg
+  - path: /assets/IMG_20241013_125647.jpg
+    text: Deviled eggs.
+  - path: /assets/IMG_20241013_125803.jpg
     text: test
-  - path: /assets/food3.jpg
+  - path: /assets/IMG_20241013_125807.jpg
     text: This is another sub title
-  - path: /assets/food7.jpg
+  - path: /assets/IMG_20241013_125813.jpg
     text: Main event
-  - path: /assets/food8.jpg
+  - path: /assets/IMG_20241013_125839.jpg
     text: Event
-  - path: /assets/food5.jpg
+  - path: /assets/IMG_20241013_125900.jpg
     text: event 2
-  - path: /assets/18.jpg
+  - path: /assets/IMG_20241013_125905.jpg
     text: Sample
+  - path: /assets/IMG_20241013_125910.jpg
+    text: Yum
+  - path: /assets/IMG_20241013_125652.jpg
+    text: Yum
+  - path: /assets/IMG_20241013_125709.jpg
+    text: Yum
 ---
 {% if page.images %}{% include image-gallery-index.html %}{% endif %}
 
