@@ -2,7 +2,7 @@
 layout: post
 title: If you cannot do great things, do small things in a great way
 date: 2024-10-09 12:12:00
-image: /assets/food6.jpg
+image: /assets/IMG_20241013_125647.jpg
 tags: Life
 ---
 Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis.
