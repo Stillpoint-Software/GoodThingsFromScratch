@@ -7,23 +7,23 @@ images:
   - path: /assets/IMG_20241013_125647.jpg
     text: Deviled eggs.
   - path: /assets/IMG_20241013_125803.jpg
-    text: test
+    text: Bagel with smoked salmon - cream cheese - tomato - arugula
   - path: /assets/IMG_20241013_125807.jpg
-    text: This is another sub title
+    text: Ham biscuit.
   - path: /assets/IMG_20241013_125813.jpg
-    text: Main event
+    text: Lamb shanks and polenta.
   - path: /assets/IMG_20241013_125839.jpg
-    text: Event
+    text: One pot wonder.
   - path: /assets/IMG_20241013_125900.jpg
-    text: event 2
+    text: Moroccan flat bread with lamb - labne
   - path: /assets/IMG_20241013_125905.jpg
-    text: Sample
+    text: Eggplant.
   - path: /assets/IMG_20241013_125910.jpg
-    text: Yum
+    text: Spring garden salad.
   - path: /assets/IMG_20241013_125652.jpg
-    text: Yum
+    text: Chicken pot pie.
   - path: /assets/IMG_20241013_125709.jpg
-    text: Yum
+    text: Lemon potato salad.
 ---
 {% if page.images %}{% include image-gallery-index.html %}{% endif %}
 
