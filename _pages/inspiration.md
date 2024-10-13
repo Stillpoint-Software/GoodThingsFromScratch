@@ -2,7 +2,7 @@
 layout: gallery
 permalink: /Inspiration/
 title: Inspiration
-image: /assets/food1.jpg
+image: /assets/IMG_20241013_125647.jpg
 images:
   - path: /assets/food6.jpg
     text: Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum.
