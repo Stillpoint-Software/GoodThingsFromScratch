@@ -6,7 +6,7 @@ image: /assets/20230710_c.jpg
 ---
 Hi, my name is Meredith Blair Bearov. I have over two decades in high-end culinary and hospitality services. 
 
-My career in hospitality includes pivotal stints at The Inn at Little Washington and Citronnelle; James Beard award-winning, Michelin Stars, Relais & Châteaux, and Relais & Gourmand properties. I have worked in all aspects of the industry, including fine dining, event planning and management, culinary retail, and sales. 
+My career in hospitality includes pivotal stints at **The Inn at Little Washington** and **Citronnelle**; James Beard award-winning, Michelin Stars, Relais & Châteaux, and Relais & Gourmand properties. I have worked in all aspects of the industry, including fine dining, event planning and management, culinary retail, and sales. 
 
 These experiences have equipped me with a unique perspective and an understanding of what it takes to plan and execute exceptional experiences.
 
@@ -21,9 +21,9 @@ These experiences have equipped me with a unique perspective and an understandin
 > Let things taste of what they are.  
 >    \- Alice Waters
 
-***WINE*** I’ve had the opportunity to work with some spectacular wine collections. As Wine Director and Cellar Master at The Inn at Little Washington, I was responsible for managing a 92-page wine list and overseeing a cellar with more than 29,000 bottles and 2,400 labels.
+***WINE*** I’ve had the opportunity to work with some spectacular wine collections. As Wine Director and Cellar Master at The Inn at Little Washington, I was responsible for managing a 92-page wine list and overseeing a cellar with more than 29,000 bottles and 2,400 labels; where I was fortunate enough to earn a Grand Spectator Award for the wine list.
 
-Over the years, I’ve been fortunate enough to win a Wine Spectator award, and to work alongside three different Master Sommeliers. Their mentorship helped shaped my approach to wine. Whether it’s selecting the perfect pairing for an intimate dinner or curating a list for a large event, I’ve always focused on making wine approachable, exciting, and, above all, fun.
+At Michel Richard's **Citronelle**, and **RANGE & Aggio** by Bryan Voltaggio, I was recruited by, and worked  alongside, three different Master Sommeliers. Their mentorship, and friendship, helped shaped my approach to wine. Whether it’s selecting the perfect pairing for an intimate dinner or curating a list for a large event, I’ve always focused on making wine approachable, exciting, and, above all, fun.
 
 <div class="gallery-box">
   <div class="gallery2">
