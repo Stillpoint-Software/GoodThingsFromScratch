@@ -4,7 +4,7 @@ permalink: /about/
 title: About
 image: /assets/20230710_c.jpg
 ---
-Hi, my name is Meredith Blair Bearov. I have over two decades in high-end culinary and hospitality services. 
+Hi, my name is **Meredith Blair Bearov**. I have over two decades in high-end culinary and hospitality services. 
 
 My career in hospitality includes pivotal stints at **The Inn at Little Washington** and **Citronnelle**; James Beard award-winning, Michelin Stars, Relais & Châteaux, and Relais & Gourmand properties. I have worked in all aspects of the industry, including fine dining, event planning, management, culinary retail, and sales. 
 
