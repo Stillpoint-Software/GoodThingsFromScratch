@@ -20,7 +20,7 @@ author-social:
   - { icon: "ion-logo-twitter", link: "https://twitter.com" }
   - { icon: "ion-logo-facebook", link: "https://facebook.com" }
   - { icon: "ion-logo-instagram", link: "https://instagram.com" }
-  - { icon: "ion-logo-pinterest", link: "https://pinterest.com" }
+  - { icon: "ion-logo-linkedin", link: "https://linkedin.com" }
 
 #-------------------------------
 # Hero Settings
@@ -37,7 +37,7 @@ social:
   - { icon: "ion-logo-twitter", link: "https://twitter.com" }
   - { icon: "ion-logo-facebook", link: "https://facebook.com" }
   - { icon: "ion-logo-instagram", link: "https://instagram.com" }
-  - { icon: "ion-logo-pinterest", link: "https://pinterest.com" }
+  - { icon: "ion-logo-linkedin", link: "https://linkedin.com" }
 
 #-------------------------------
 # Comment Section (Disqus)
@@ -59,10 +59,10 @@ google-analytics: # Add your identifier. For example UA-99631805-1.
 # Contant form Settings
 contact:
   email: mbbearov@gmail.com # Add your email for contant form 
-  description: I'd love to hear from you. Fill out the form below if you have any questions or would like to talk about an event. # Add a description of your form
+  description: I'd love to hear from you. Please fill out the form below if you have any questions or would like to talk about an event. # Add a description of your form
 
 # NOTE
-# Mangila comes with a built-in contact form, that you can use with Formspree service to handle up to 50 submissions per month for free. You could also easily switch to another contact form service if you want.
+# using netlify forms
 
 #-------------------------------
 # Build settings
