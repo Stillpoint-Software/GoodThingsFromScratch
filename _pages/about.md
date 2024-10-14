@@ -21,7 +21,7 @@ These experiences have equipped me with a unique perspective and an understandin
 > Let things taste of what they are.  
 >    \- Alice Waters
 
-***WINE-*** I’ve had the opportunity to work with some spectacular wine collections. As Wine Director and Cellar Master at The Inn at Little Washington, I was responsible for managing a 92-page wine list and overseeing a cellar with more than 29,000 bottles and 2,400 labels.
+***WINE*** I’ve had the opportunity to work with some spectacular wine collections. As Wine Director and Cellar Master at The Inn at Little Washington, I was responsible for managing a 92-page wine list and overseeing a cellar with more than 29,000 bottles and 2,400 labels.
 
 Over the years, I’ve been fortunate enough to win a Wine Spectator award, and to work alongside three different Master Sommeliers. Their mentorship helped shaped my approach to wine. Whether it’s selecting the perfect pairing for an intimate dinner or curating a list for a large event, I’ve always focused on making wine approachable, exciting, and, above all, fun.
 
