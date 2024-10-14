@@ -1,7 +1,7 @@
 ---
 #-------------------------------
 # General Site Settings
-title: Palm Desert's Personal Chef
+title: Good Things from Scratch
 logo: "/assets/logo.svg" # You can add own logo. For example '/assets/logo.png'.
 description: Good Things from Scratch
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -27,7 +27,7 @@ author-social:
 hero:
   hero__image: "/assets/food3.jpg"
   hero__title: "Welcome to Good Things from Scratch"
-  hero__description: "Homemade Happiness in Every Dish"
+  hero__description: "Palm Desert's Personal Chef"
 
 #-------------------------------
 # Footer section
