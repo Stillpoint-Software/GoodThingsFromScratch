@@ -7,7 +7,7 @@ images:
   - path: /assets/IMG_20241013_125647.jpg
     text: Deviled eggs
   - path: /assets/IMG_20241013_125803.jpg
-    text: Bagel with smoked salmon - cream cheese - tomato - arugula
+    text: Bagel with smoked salmon
   - path: /assets/IMG_20241013_125807.jpg
     text: Ham biscuits
   - path: /assets/IMG_20241013_125813.jpg
