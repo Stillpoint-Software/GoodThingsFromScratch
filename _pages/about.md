@@ -21,9 +21,9 @@ These experiences have equipped me with a unique perspective and an understandin
 > Let things taste of what they are.  
 >    \- Alice Waters
 
-***WINE*** I’ve had the opportunity to work with some spectacular wine collections. As Wine Director and Cellar Master at The Inn at Little Washington, I was responsible for managing a 92-page wine list and overseeing a cellar with more than 29,000 bottles and 2,400 labels; where I was fortunate enough to earn a Grand Spectator Award for the wine list.
+***WINE \-***  I’ve had the opportunity to work with some spectacular wine collections. As Wine Director and Cellar Master at The Inn at Little Washington, I was responsible for managing a 92-page wine list and overseeing a cellar with more than 29,000 bottles and 2,400 labels.
 
-At Michel Richard's **Citronelle**, and **RANGE & Aggio** by Bryan Voltaggio, I was recruited by, and worked  alongside, three different Master Sommeliers. Their mentorship, and friendship, helped shaped my approach to wine. Whether it’s selecting the perfect pairing for an intimate dinner or curating a list for a large event, I’ve always focused on making wine approachable, exciting, and, above all, fun.
+Over the years I have been fortunate enough to earn a to earn a Grand Spectator Award, and to be recruited by, and work alongside, three different Master Sommeliers. Their mentorship, and friendship, helped shaped my approach to wine. Whether it’s selecting the perfect pairing for an intimate dinner or curating a list for a large event, I’ve always focused on making wine approachable, exciting, and, above all, fun.
 
 <div class="gallery-box">
   <div class="gallery2">
@@ -31,4 +31,4 @@ At Michel Richard's **Citronelle**, and **RANGE & Aggio** by Bryan Voltaggio, I 
   </div>
 </div>
 
-***EVENTS*** In omni enim arte vel studio vel quavis scientia vel in ipsa virtute optimum quidque rarissimum est. Quod est, ut dixi, habere ea, quae secundum naturam sint, vel omnia vel plurima et maxima. Quodsi ipsam honestatem undique pertectam atque absolutam. Tecum optime, deinde etiam cum mediocri amico. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari potest. An, partus ancillae sitne in fructu habendus, disseretur inter principes civitatis, P. Ut in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sit conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles. Servari enim iustitia nisi a forti viro, nisi a sapiente nona.
+***EVENTS \-*** In omni enim arte vel studio vel quavis scientia vel in ipsa virtute optimum quidque rarissimum est. Quod est, ut dixi, habere ea, quae secundum naturam sint, vel omnia vel plurima et maxima. Quodsi ipsam honestatem undique pertectam atque absolutam. Tecum optime, deinde etiam cum mediocri amico. Neque enim disputari sine reprehensione nec cum iracundia aut pertinacia recte disputari potest. An, partus ancillae sitne in fructu habendus, disseretur inter principes civitatis, P. Ut in geometria, prima si dederis, danda sunt omnia. Longum est enim ad omnia respondere, quae a te dicta sunt. Nam cui proposito sit conservatio sui, necesse est huic partes quoque sui caras suo genere laudabiles. Servari enim iustitia nisi a forti viro, nisi a sapiente nona.
