@@ -19,7 +19,7 @@ These experiences have equipped me with a unique perspective and an understandin
 </div>
 
 > Let things taste of what they are.  
->    \- Alice Waters
+>  <cite>Alice Waters</cite>
 
 ***WINE \-***  I’ve had the opportunity to work with some spectacular wine collections. As **Wine Director** and **Cellar Master** at The Inn at Little Washington, I was responsible for managing a 92-page wine list and overseeing a cellar with more than 29,000 bottles and 2,400 labels. At Citronnelle, I was blessed to worked for Michel Richard and Kathryn Morgan M.S., and to eventually assume the role of Wine Director;  Citronnelle was a magical place.
 
