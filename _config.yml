@@ -1,9 +1,9 @@
 ---
 #-------------------------------
 # General Site Settings
-title: Good Things from Scratch
+title: Palm Desert's Personal Chef
 logo: "/assets/logo.svg" # You can add own logo. For example '/assets/logo.png'.
-description: Palm Desert's Personal Chef
+description: Good Things from Scratch
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://goodthingsfromscratch.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
 
