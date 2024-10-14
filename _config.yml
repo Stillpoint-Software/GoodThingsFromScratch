@@ -2,7 +2,7 @@
 #-------------------------------
 # General Site Settings
 title: Good Things from Scratch
-logo: "/assets/profile-picture.png" # You can add own logo. For example '/assets/logo.png'.
+logo: "/assets/logo.svg" # You can add own logo. For example '/assets/logo.png'.
 description: Homemade Happiness in Every Dish
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://goodthingsfromscratch.netlify.app" # the base hostname & protocol for your site, e.g. http://example.com
@@ -13,7 +13,7 @@ author:
   name: Meredith Blair Bearov
   bio: Hi, my name is Meredith Blair Bearov. I’ve spent over 20 years in the world of high-end food and hospitality, doing everything from fine dining and event planning to culinary retail and sales. Along the way, I’ve had the chance to work at some pretty amazing places. These experiences have equipped me with a unique perspective and an understanding of what it takes to plan and execute exceptional experiences.
   image: "/assets/food1.jpg"
-  avatar: "/assets/15.jpg"
+  avatar: "/assets/profile-picture.png"
 
 # Example of adding a new link to the section author - {icon: "ion-logo-github", link: "https://github.com"}
 author-social:
