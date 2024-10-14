@@ -2,7 +2,7 @@
 layout: gallery
 permalink: /Inspiration/
 title: Inspiration
-image: /assets/banner5.jpg
+image: /assets/view2.jpeg
 images:
   - path: /assets/IMG_20241013_125647.jpg
     text: Deviled eggs
