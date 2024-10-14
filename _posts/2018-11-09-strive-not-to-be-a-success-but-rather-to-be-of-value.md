@@ -14,9 +14,9 @@ In qua quid est boni praeter summam voluptatem, et eam sempiternam? Cur post Tar
 
 <div class="gallery-box">
   <div class="gallery2">
-    <img src="/assets/21.jpg">
-    <img src="/assets/22.jpg">
-    <img src="/assets/20.jpg">
+    <img src="/assets/20230710_c.jpg">
+    <img src="/assets/IMG_20241013_125759.jpg">
+    <img src="/assets/motor-girl.jpg">
   </div>
   <em>Gallery / <a href="https://unsplash.com/" target="_blank">Unsplash</a></em>
 </div>
