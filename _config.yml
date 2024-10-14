@@ -17,10 +17,11 @@ author:
 
 # Example of adding a new link to the section author - {icon: "ion-logo-github", link: "https://github.com"}
 author-social:
-  - { icon: "ion-logo-twitter", link: "https://twitter.com" }
-  - { icon: "ion-logo-facebook", link: "https://facebook.com" }
   - { icon: "ion-logo-instagram", link: "https://instagram.com" }
   - { icon: "ion-logo-linkedin", link: "https://linkedin.com" }
+  #- { icon: "ion-logo-twitter", link: "https://twitter.com" }
+  #- { icon: "ion-logo-facebook", link: "https://facebook.com" }
+  #- { icon: "ion-logo-pintrest", link: "https://pintrest.com" }
 
 #-------------------------------
 # Hero Settings
@@ -34,10 +35,11 @@ hero:
 # Example of adding a new link to the footer - {icon: "ion-logo-github", link: "https://github.com"}
 # Other icons can be found at https://ionicons.com/v4/
 social:
-  - { icon: "ion-logo-twitter", link: "https://twitter.com" }
-  - { icon: "ion-logo-facebook", link: "https://facebook.com" }
   - { icon: "ion-logo-instagram", link: "https://instagram.com" }
   - { icon: "ion-logo-linkedin", link: "https://linkedin.com" }
+  #- { icon: "ion-logo-twitter", link: "https://twitter.com" }
+  #- { icon: "ion-logo-facebook", link: "https://facebook.com" }
+  #- { icon: "ion-logo-pintrest", link: "https://pintrest.com" }
 
 #-------------------------------
 # Comment Section (Disqus)
