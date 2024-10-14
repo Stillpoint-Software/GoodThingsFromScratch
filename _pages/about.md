@@ -25,7 +25,7 @@ These experiences have equipped me with a unique perspective and an understandin
 
 <div class="gallery-box">
   <div class="gallery2">
-    <img src="/assets/20220625_114847.jpg">
+    <img src="/assets/20220625_3.jpg">
   </div>
 </div>
 
