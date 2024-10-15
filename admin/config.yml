@@ -5,14 +5,53 @@ backend:
 
 media_folder: "assets"
 
-collections: # A list of collections the CMS should be able to edit
+collections:
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - label: "Site Configuration"
+        name: "config"
+        file: "_config.yml" 
+        delete: false
+        fields:
+          - label: "Site"
+            name: "site"
+            widget: "object"
+            fields:
+              - { label: "Site Title", name: "site_title", widget: "string", required: true }
+              - { label: "Site Description", name: "site_description", widget: "text", required: true }
+
+          - label: "Author"
+            name: "author"
+            widget: "object"
+            fields:
+              - { label: "Author Name", name: "name", widget: "string", required: true }
+              - { label: "Author Bio", name: "bio", widget: "text", required: true }
+              - { label: "Author Image", name: "image", widget: "image", required: true }
+              - { label: "Author Avatar", name: "avatar", widget: "image", required: true }
+
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Hero Image", name: "hero__image", widget: "image", required: true }
+              - { label: "Hero Title", name: "hero__title", widget: "string", required: true }
+              - { label: "Hero Description", name: "hero__description", widget: "text", required: true }
+
+          - label: "Contact"
+            name: "contact"
+            widget: "object"
+            fields:
+              - { label: "Contact Email", name: "email", widget: "string", required: true }
+              - { label: "Contact Description", name: "description", widget: "text", required: true }
+
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Post" # Used in the UI, ie.: "New Post"
+    label: "Post" 
     folder: "_posts" 
     sort: "date:desc" # Default is title:asc
-    create: true # Allow users to create new documents in this collection
+    create: true # Allow users to create new documents
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
-    fields: # The fields each document in this collection have
+    fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
       - { label: "Title", name: "title", widget: "string", tagname: "h1" }
       - { label: "Body", name: "body", widget: "markdown" }
