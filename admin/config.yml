@@ -43,6 +43,11 @@ collections:
             fields:
               - { label: "Email", name: "email", widget: "string", required: true }
               - { label: "Description", name: "description", widget: "text", required: true }
+          - label: "Site Description"
+            name: "sitedescription"
+            widget: "string"
+            fields:
+              - { label: "Description", name: "description", widget: "text", required: false }
               
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Post" 

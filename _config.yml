@@ -15,19 +15,20 @@ author:
 contact:
   email: mbbearov@gmail.com
   description: I'd love to hear from you. Please fill out the form below if you have any questions or would like to talk about an event.
-author-social:
-  - icon: ion-logo-instagram
-    link: https://instagram.com
-  - icon: ion-logo-linkedin
-    link: https://linkedin.com
-google-analytics: null
-defaults:
-  - scope:
-      path: _pages
-    values:
-      permalink: /:basename:output_ext
+sitedescription: Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam.
 include:
   - _pages
+defaults:
+  - values:
+      permalink: /:basename:output_ext
+    scope:
+      path: _pages
+google-analytics: null
+author-social:
+  - link: https://instagram.com
+    icon: ion-logo-instagram
+  - link: https://linkedin.com
+    icon: ion-logo-linkedin
 social:
   - icon: ion-logo-instagram
     link: https://instagram.com
