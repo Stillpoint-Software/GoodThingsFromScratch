@@ -16,7 +16,7 @@ collections:
         fields:
           - label: "General"
             name: "general"
-            widget: "object"
+            widget: "fieldset"
             fields:
               - { label: "Title", name: "title", widget: "string", required: true }
               - { label: "Logo", name: "logo", widget: "image", required: true }
