@@ -22,7 +22,7 @@ images:
     text: Spring garden salad
   - path: /assets/food17.jpg
     text: Chicken pot pie
-  - path: /assets/IMG_20241013_125709.jpg
+  - path: /assets/food18.jpg
     text: Lemon potato salad
 ---
 {% if page.images %}{% include image-gallery-index.html %}{% endif %}
