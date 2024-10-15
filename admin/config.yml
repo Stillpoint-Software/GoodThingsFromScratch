@@ -7,7 +7,7 @@ media_folder: "assets"
 
 collections:
   - name: "settings"
-    label: "Site Settings"
+    label: "Settings"
     files:
       - label: "Site Configuration"
         name: "config"
