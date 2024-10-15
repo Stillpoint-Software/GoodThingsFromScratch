@@ -10,7 +10,7 @@ images:
     text: Bagel with smoked salmon
   - path: /assets/food7.jpg
     text: Ham biscuits
-  - path: /assets/IMG_20241013_125813.jpg
+  - path: /assets/food9.jpg
     text: Lamb shanks and polenta
   - path: /assets/IMG_20241013_125839.jpg
     text: One pot wonder
