@@ -73,7 +73,7 @@ collections:
         fields:
           - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
           - { label: "Perma Link", name: "permalink", widget: "hidden", default: "page" }
-          - { label: "Title", name: "title", widget: "string", default: "page", required: true }
+          - { label: "Header Title", name: "title", widget: "string", default: "page", required: true }
           - { label: "Body", name: "body", widget: "markdown" }
           - { label: "Image Header", name: "image", widget: "image", required: true }
       - label: "Inspiration Page"
@@ -82,7 +82,7 @@ collections:
         fields:
           - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
           - { label: "Perma Link", name: "permalink", widget: "hidden", default: "page" }
-          - { label: "Title", name: "title", widget: "string", default: "page", required: true }
+          - { label: "Header Title", name: "title", widget: "string", default: "page", required: true }
           - { label: "Image Header", name: "image", widget: "image", required: true } 
           - label: "Gallery"
             name: "images"
