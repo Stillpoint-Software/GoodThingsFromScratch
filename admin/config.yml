@@ -57,7 +57,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
-      - { label: "Title", name: "title", widget: "string", tagname: "h1" }
+      - { label: "Post Title", name: "title", widget: "string", tagname: "h1" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss", }
       - { label: "Asset", name: "image", widget: "image", required: false }
@@ -75,7 +75,7 @@ collections:
           - { label: "Perma Link", name: "permalink", widget: "hidden", default: "page" }
           - { label: "Header Title", name: "title", widget: "string", default: "page", required: true }
           - { label: "Body", name: "body", widget: "markdown" }
-          - { label: "Image Header", name: "image", widget: "image", required: true }
+          - { label: "Header Image", name: "image", widget: "image", required: true }
       - label: "Inspiration Page"
         name: "inspiration"
         file: "_pages/inspiration.md"
@@ -83,7 +83,7 @@ collections:
           - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
           - { label: "Perma Link", name: "permalink", widget: "hidden", default: "page" }
           - { label: "Header Title", name: "title", widget: "string", default: "page", required: true }
-          - { label: "Image Header", name: "image", widget: "image", required: true } 
+          - { label: "Header Image", name: "image", widget: "image", required: true } 
           - label: "Gallery"
             name: "images"
             widget: "list"
