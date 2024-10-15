@@ -14,16 +14,11 @@ collections:
         file: "_config.yml"
         delete: false
         fields:
-          - label: "General"
-            name: "general"
-            widget: "object"
-            collapsed: false
-            fields:
-              - { label: "Title", name: "title", widget: "string", required: true }
-              - { label: "Logo", name: "logo", widget: "image", required: true }
-              - { label: "Description", name: "description", widget: "text", required: true }
-              - { label: "Base URL", name: "baseurl", widget: "string", required: false }
-              - { label: "Site URL", name: "url", widget: "string", required: true }
+          - { label: "Title", name: "title", widget: "string", required: true }
+          - { label: "Logo", name: "logo", widget: "image", required: true }
+          - { label: "Description", name: "description", widget: "text", required: true }
+          - { label: "Base URL", name: "baseurl", widget: "string", required: false }
+          - { label: "Site URL", name: "url", widget: "string", required: true }
 
           - label: "Author"
             name: "author"
