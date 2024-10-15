@@ -18,7 +18,7 @@ images:
     text: Moroccan flat bread with lamb - labne
   - path: /assets/food21.jpg
     text: Roasted eggplant
-  - path: /assets/IMG_20241013_125910.jpg
+  - path: /assets/food22.jpg
     text: Spring garden salad
   - path: /assets/food17.jpg
     text: Chicken pot pie
