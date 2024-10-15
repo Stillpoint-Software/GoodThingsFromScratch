@@ -14,7 +14,7 @@ images:
     text: Lamb shanks and polenta
   - path: /assets/food19.jpg
     text: One pot wonder
-  - path: /assets/IMG_20241013_125900.jpg
+  - path: /assets/food20.jpg
     text: Moroccan flat bread with lamb - labne
   - path: /assets/IMG_20241013_125905.jpg
     text: Roasted eggplant
