@@ -16,7 +16,7 @@ images:
     text: One pot wonder
   - path: /assets/food20.jpg
     text: Moroccan flat bread with lamb - labne
-  - path: /assets/IMG_20241013_125905.jpg
+  - path: /assets/food21.jpg
     text: Roasted eggplant
   - path: /assets/IMG_20241013_125910.jpg
     text: Spring garden salad
