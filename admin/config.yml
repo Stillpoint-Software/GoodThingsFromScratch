@@ -18,8 +18,8 @@ collections:
             name: "site"
             widget: "object"
             fields:
-              - { label: "Site Title", name: "site_title", widget: "string", required: true }
-              - { label: "Site Description", name: "site_description", widget: "text", required: true }
+              - { label: "Title", name: "title", widget: "string", required: true }
+              - { label: "Description", name: "description", widget: "text", required: true }
 
           - label: "Author"
             name: "author"
