@@ -27,7 +27,7 @@ Over the years I've been fortunate enough to earn a **Grand Spectator Award**, a
 
 <div class="gallery-box">
   <div class="gallery2">
-    <img src="/assets/20220625_3.jpg">
+    <img src="/assets/event4.jpg">
   </div>
 </div>
 
