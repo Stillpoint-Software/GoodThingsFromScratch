@@ -8,7 +8,7 @@ images:
     text: Deviled eggs
   - path: /assets/IMG_20241013_125803.jpg
     text: Bagel with smoked salmon
-  - path: /assets/IMG_20241013_125807.jpg
+  - path: /assets/food7.jpg
     text: Ham biscuits
   - path: /assets/IMG_20241013_125813.jpg
     text: Lamb shanks and polenta
