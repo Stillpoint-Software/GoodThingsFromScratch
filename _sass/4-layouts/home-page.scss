@@ -148,13 +148,5 @@
 .home_description {
   flex-grow: 1;
   margin-bottom: 0;
-
-  &:hover {
-    .article__title {
-      a {
-        color: $text-color;
-        text-decoration-color: $text-color;
-      }
-    }
-  }
+  color: $blue-gray;
 }
