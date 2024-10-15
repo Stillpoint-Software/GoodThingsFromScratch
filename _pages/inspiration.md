@@ -6,7 +6,7 @@ image: /assets/fun1.jpg
 images:
   - path: /assets/IMG_20241013_125647.jpg
     text: Deviled eggs
-  - path: /assets/IMG_20241013_125803.jpg
+  - path: /assets/food8.jpg
     text: Bagel with smoked salmon
   - path: /assets/food7.jpg
     text: Ham biscuits
