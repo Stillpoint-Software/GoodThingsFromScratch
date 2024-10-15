@@ -12,7 +12,7 @@ images:
     text: Ham biscuits
   - path: /assets/food9.jpg
     text: Lamb shanks and polenta
-  - path: /assets/IMG_20241013_125839.jpg
+  - path: /assets/food19.jpg
     text: One pot wonder
   - path: /assets/IMG_20241013_125900.jpg
     text: Moroccan flat bread with lamb - labne
