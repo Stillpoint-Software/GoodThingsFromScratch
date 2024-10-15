@@ -7,7 +7,7 @@ media_folder: "assets"
 
 collections:
   - name: "settings"
-    label: "Site Settings"
+    label: "Settings"
     files:
       - label: "Site Settings"
         name: "settings"
@@ -16,7 +16,8 @@ collections:
         fields:
           - label: "General"
             name: "general"
-            widget: "fieldset"
+            widget: "object"
+            collapsed: false
             fields:
               - { label: "Title", name: "title", widget: "string", required: true }
               - { label: "Logo", name: "logo", widget: "image", required: true }
