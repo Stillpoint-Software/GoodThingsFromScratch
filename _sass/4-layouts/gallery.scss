@@ -1,0 +1,22 @@
+.image-gallery-index {
+	overflow: auto;
+	a {
+		float: left;
+		display: block;
+		margin: 1% 0 0 2%;
+		width: 30%;
+		img {
+			width: 100%;
+			display: block;
+		}
+		span {
+			display: block;
+			text-align: left;
+			font-size: 15px;
+			padding: 3px 0;
+			line-height: 18px;
+			color: $blue-gray;
+			margin-bottom: 10px;
+		}
+	}
+}
