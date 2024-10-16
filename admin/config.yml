@@ -45,7 +45,7 @@ collections:
               - { label: "Description", name: "description", widget: "text", required: true }
           - label: "Site Description"
             name: "sitedescription"
-            widget: "string"
+            widget: "text"
             fields:
               - { label: "Description", name: "description", widget: "text", required: false }
               
