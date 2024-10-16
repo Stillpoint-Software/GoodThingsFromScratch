@@ -146,7 +146,15 @@
 
 /* home description */
 .home_description {
+  position: relative;
   flex-grow: 1;
   margin-bottom: 0;
   color: $blue-gray;
+  border-bottom: 1px solid $gray;
 }
+
+.home_description__inner {
+  width: 100%;
+  margin: 0 auto;
+}
+

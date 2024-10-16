@@ -26,5 +26,3 @@ images:
     text: Lemon potato salad
 ---
 {% if page.images %}{% include image-gallery-index.html %}{% endif %}
-
-<!-- {% include gallery-content.html %} -->
