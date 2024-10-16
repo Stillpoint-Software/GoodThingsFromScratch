@@ -5,7 +5,7 @@ baseurl: ""
 url: https://goodthingsfromscratch.netlify.app
 hero:
   hero__image: /assets/food3.jpg
-  hero__title: Welcome to Good Things from Scratch
+  hero__title: Good Things from Scratch
   hero__description: |-
     Personal Chef and Boutique Gatherings <br> 
     Coachella Valley
