@@ -2,6 +2,7 @@
 layout: gallery
 permalink: /Inspiration/
 title: Inspiration
+navorder: 4
 image: /assets/fun1.jpg
 images:
   - path: /assets/food10.jpg

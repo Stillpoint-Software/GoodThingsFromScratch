@@ -3,6 +3,7 @@ layout: page
 permalink: /about/
 title: About
 image: /assets/stbarth-girl.jpg
+navorder: 1
 ---
 Hi, my name is **Meredith Bearov**. I have over two decades in high-end culinary and hospitality services. 
 
