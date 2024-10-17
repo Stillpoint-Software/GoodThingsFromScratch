@@ -89,14 +89,6 @@ collections:
             fields:
               - { label: "Asset", name: "path", widget: "image" }
               - { label: "Title", name: "text", widget: "string" }
-      - label: "Welcome Page"
-        name: "welcome"
-        file: "_pages/welcome.md"
-        fields: 
-         - { label: "Layout", name: "layout", widget: "hidden", default: "home_content" }
-         - { label: "Body", name: "body", widget: "markdown" }
-         - { label: "Perma Link", name: "permalink", widget: "hidden", default: "/welcome/" }
-         - { label: "Header Image", name: "image", widget: "hidden" }
   - name: "review" # Used in routes, ie.: /admin/collections/:slug/edit
     label: "Review" 
     folder: "_reviews" 
