@@ -1,64 +1,57 @@
-#-------------------------------
-# General Site Settings
 title: Good Things from Scratch
 logo: /assets/logo.svg
 description: Good Things from Scratch
 baseurl: ""
 url: https://goodthingsfromscratch.netlify.app
-
-#-------------------------
-#Hero Settings
 hero:
   hero__image: /assets/food3.jpg
-  hero__title: Welcome to Good Things from Scratch
-  hero__description: Personal Culinary Experiences
-
-#-------------------------------
-# Author Settings
+  hero__title: Good Things from Scratch
+  hero__description: |-
+    Personal Chef and Boutique Gatherings <br> 
+    Coachella Valley
 author:
   name: Meredith Bearov
   bio: Hi, my name is Meredith Bearov. I’ve spent over 20 years in the world of high-end food and hospitality, doing everything from fine dining and event planning to culinary retail and sales. Along the way, I’ve had the chance to work at some pretty amazing places. These experiences have equipped me with a unique perspective and an understanding of what it takes to plan and execute exceptional experiences.
   image: /assets/food1.jpg
   avatar: /assets/profile-picture1.png
-
-#-------------------------------
-# Contant form Settings
 contact:
+  email: mbbearov@gmail.com
   description: I'd love to hear from you. Please fill out the form below if you have any questions or would like to talk about an event.
-
-#-------------------------------
-# Home Description Settings
-sitedescription: Sin tantum modo ad indicia veteris memoriae cognoscenda, curiosorum. Haec et tu ita posuisti, et verba vestra sunt. Idemne potest esse dies saepius, qui semel fuit? Ampulla enim sit necne sit, quis non iure optimo irrideatur, si laboret? Ego vero volo in virtute vim esse quam maximam; Serpere anguiculos, nare anaticulas, evolare merulas, cornibus uti videmus boves, nepas aculeis. Archytam? Qua ex cognitione facilior facta est investigatio rerum occultissimarum. Negat enim tenuissimo victu, id est contemptissimis escis et potionibus, minorem voluptatem percipi quam.
-
-#-------------------------------
-# Google Analytics
-google-analytics: null # Add your identifier. For example UA-99631805-1.
-
-#-------------------------------
-# Footer section
-# Example of adding a new link to the footer - {icon: "ion-logo-github", link: "https://github.com"}
-# Other icons can be found at https://ionicons.com/v4/
+sitedescription: |-
+  <h1>Welcome</h1>
+  My name is Meredith Bearov. I’ve spent over 20 years in the world of high-end food and hospitality, doing everything from fine dining and event planning to culinary retail and sales. Along the way, I’ve had the chance to work at some pretty amazing places. These experiences have equipped me with a unique perspective and an understanding of what it takes to plan and execute exceptional experiences.
+  <br><br>
+  I specialize in creating boutique experiences. Whether it’s an intimate gathering or a special celebration, I love working closely with my clients to plan events and design custom menus that reflect their tastes, preferences, and the freshest, in-season ingredients. From the initial consultation to shopping at local farmers markets, to wine selection, to event coordination and planning, I personally curate every detail. 
+  <br><br>
+  My goal is to give you a personal chef experience, crafting meals tailored to your unique needs, whether it’s something casual or a more formal event. It’s all about creating something meaningful and memorable, where every dish was made just for you.
+collections:
+  reviews:
+    output: true
+include:
+  - _pages
+  - _reviews
+defaults:
+  - scope:
+      path: _pages
+    values:
+      permalink: /:basename:output_ext
 author-social:
-  - link: https://instagram.com
-    icon: ion-logo-instagram
-  - link: https://linkedin.com
-    icon: ion-logo-linkedin
+  - icon: ion-logo-instagram
+    link: https://instagram.com
+  - icon: ion-logo-linkedin
+    link: https://linkedin.com
+google-analytics: null
 social:
   - icon: ion-logo-instagram
     link: https://instagram.com
   - icon: ion-logo-linkedin
     link: https://linkedin.com
-
-#-------------------------------
-# Build settings
 markdown: kramdown
 permalink: pretty
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll/tagging
-
-# Pages Path
 paginate: 3
 paginate_path: /page/:num
 defaults:
