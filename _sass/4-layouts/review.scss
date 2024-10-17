@@ -30,7 +30,7 @@
 
 
  .blockquote__text {
-  padding: 20px 20px 0 35px;
+  padding: 20px 35px 0 35px;
   font-style: italic;
   display: flex;
    &::before {
@@ -64,7 +64,7 @@
     }
 
     @media only screen and (max-width: $mobile) {
-      padding: 20px 40px 0 55px;
+      padding: 20px 49px 0 55px;
       font-size: 21px;
       .blockquote__text {
           &::before {
