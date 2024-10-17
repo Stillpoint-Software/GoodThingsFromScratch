@@ -69,7 +69,6 @@ defaults:
 # Folders to Include
 include:
   - _pages
-  - _reviews
 collections:
   reviews:
     output: true

@@ -1,18 +1,13 @@
-<div class="article col col-4 col-d-6 col-t-12 col-m-12 grid__post">
-    {% if review.image %}
-     <img class="lazy" data-src="//wsrv.nl/?url={{ site.url | absolute_url }}{{ review.image }}&w=50&h=50&output=jpg&q=50&t=square"
-    {% endif %}
-
-    <div class="article__content">
-        <p class="article__excerpt">
-         {{ review.content | strip_html  | truncatewords: 20}}
-        <div class="article__bottom">
-            {% if review.author %}
-            {{review.author}}&nbsp;
-            <time class="article__date" datetime="{{ review.date | date_to_xmlschema }}">{% assign date_format = site.minima.date_format | default: "%b %-d, %Y"
-                %}{{ review.date | date: date_format }}</time>
-            {% endif %}
-        </div>
+<div class="review col col-4 col-d-6 col-t-12 col-m-12">
+    <div class="review__excerpt">
+        <p class="blockquote__text">
+            {% if review.description %}{{ review.description }}{% else %}{{ review.content |
+            strip_html | truncate: 110, "" }}{% endif %}
         </p>
+        <div class="review__bottom">
+            <div class="review__author-name">
+                {{review.author}}
+            </div>
+        </div>
     </div>
 </div>

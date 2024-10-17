@@ -108,6 +108,14 @@ blockquote {
     font-size: 3.5em;
     color: $brand-color;
   }
+   &::after {
+      content: "\201D";
+      position: absolute;
+      top: .35em;
+      right: 0.05em;
+      font-size: 3.5em;
+      color: $brand-color;
+    }
 
   p {
     margin-bottom: 10px;

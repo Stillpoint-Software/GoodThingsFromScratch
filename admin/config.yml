@@ -41,7 +41,6 @@ collections:
             name: "contact"
             widget: "object"
             fields:
-              - { label: "Email", name: "email", widget: "string", required: true }
               - { label: "Description", name: "description", widget: "text", required: true }
           - label: "Site Description"
             name: "sitedescription"
@@ -90,3 +89,14 @@ collections:
             fields:
               - { label: "Asset", name: "path", widget: "image" }
               - { label: "Title", name: "text", widget: "string" }
+  - name: "review" # Used in routes, ie.: /admin/collections/:slug/edit
+    label: "Review" 
+    folder: "_reviews" 
+    sort: "date:desc" # Default is title:asc
+    create: true # Allow users to create new documents
+    slug: "{{order}}-{{slug}}"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "review" }
+      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Review Author", name: "author", widget: "text", required: true }
+      - { label: "Order", name: "order", widget: "number", required: true }

@@ -1,0 +1,155 @@
+/* Article */
+.review {
+  flex-grow: 1;
+  font-size: 20px;
+  margin-bottom: 0 25px;
+  position: relative;
+  font-family: $heading-font-family;
+  color: $blue-gray;
+  line-height: 25px;
+   @media only screen and (max-width: $desktop) {
+    padding: 0;
+  }
+   @media only screen and (max-width: $mobile) {
+    padding:10px;
+  }
+}
+
+.review__excerpt {
+ margin-right: 15px;
+ margin-left: 5px;
+ background-color: $background-color-alt;
+ box-sizing:content-box;
+ border-radius: 5px;
+  // font-family: $heading-font-family;
+  // font-size: 15px;
+  // font-style: italic;
+  // line-height: 20px;
+  // color: $blue-gray;
+  // display: flex;
+
+
+ .blockquote__text {
+  padding: 20px 20px 0 35px;
+  font-style: italic;
+  display: flex;
+   &::before {
+    content: "\201C";
+    position: absolute;
+    top: 0.35em;
+    left: 0.30em;
+    font-size: 3.5em;
+    color: $brand-color;
+    justify-content: center;
+  }
+   &::after {
+      content: "\201D";
+      position: absolute;
+      top: .35em;
+      right: 0.70em;
+      font-size: 3.5em;
+      color: $brand-color;
+    }
+  .blockquote__cite {
+      font-family: $base-font-family;
+      font-size: 10px;
+      font-style: normal;
+      color: $brand-color;
+      text-transform: uppercase;
+      &:before {
+        content: "\2014""\00a0";
+            color: $dark;
+      text-transform: uppercase;
+      }
+    }
+
+    @media only screen and (max-width: $mobile) {
+      padding: 20px 40px 0 55px;
+      font-size: 21px;
+      .blockquote__text {
+          &::before {
+    content: "\201C";
+    position: absolute;
+    top: 0.35em;
+    left: 0.25em;
+    font-size: 3.5em;
+    color: $brand-color;
+    justify-content: center;
+  }
+   &::after {
+      content: "\201D";
+      position: absolute;
+      top: .35em;
+      right: 0.45em;
+      font-size: 3.5em;
+      color: $brand-color;
+    }
+      }
+    }
+  }
+}
+
+.review__meta {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+  line-height: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: $dark;
+
+  .review-tags__box {
+    display: flex;
+
+    &::before {
+      display: block;
+      padding: 0 0.35rem;
+    }
+
+    .review__tag {
+      color: inherit;
+    }
+  }
+
+  .review__tag {
+    &:hover {
+      color: $brand-color;
+    }
+    &::after {
+      content: ",";
+      margin-right: 2px;
+      display: inline-block;
+    }
+
+    &:last-child {
+      &::after {
+        content: none;
+      }
+    }
+  }
+}
+
+.review__bottom {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 13px;
+  font-family: $base-font-family;
+  text-transform: uppercase;
+  justify-content: right;
+  color: $brand-color;
+  padding-right: 10px;
+}
+
+.review__author {
+  display: flex;
+  align-items: center;
+
+  .review__author-name {
+    color: inherit;
+    padding-right: 10px;
+    &:hover {
+      color: $brand-color;
+    }
+  }
+}
+
