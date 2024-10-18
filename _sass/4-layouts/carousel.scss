@@ -1,0 +1,54 @@
+.carousel {
+  background: $background-color-alt;
+}
+
+.carousel-cell {
+  width: 30%;
+  height: 200px;
+  margin: 0 10px;
+  background: $background-color-alt;
+  border-radius: 5px;
+
+  .blockquote__text {
+    padding: 20px 15px 0 35px;
+    font-family: $heading-font-family;
+    font-style: italic;
+    &::before {
+      content: "\201C";
+      position: absolute;
+      top: -0.3em;
+      left: 0.02em;
+      font-size: 3.5em;
+      color: $brand-color;
+      justify-content: center;
+    }
+
+    @media only screen and (max-width: $mobile) {
+      .blockquote__text {
+        &::before {
+          content: "\201C";
+          position: absolute;
+           top: -0.3em;
+          left: 0.02em;
+          font-size: 3.5em;
+          color: $brand-color;
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+  .blockquote__cite {
+    font-family: $base-font-family;
+    font-size: 15px;
+    font-style: normal;
+    color: $brand-color;
+    text-transform: uppercase;
+    text-align: right;
+    padding-right: 5px;
+  }
+
+.carousel-cell:before {
+  text-align: center;
+}
