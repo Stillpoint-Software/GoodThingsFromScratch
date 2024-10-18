@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Stories
+title: Story
 permalink: /story/
 image: "/assets/food2.jpg"
 navorder: 3
