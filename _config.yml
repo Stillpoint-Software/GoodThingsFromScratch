@@ -20,13 +20,23 @@ sitedescription: |-
   <h1>Welcome</h1>
    <p>My name is Meredith Bearov. I’ve spent over 20 years in the world of high-end food and hospitality, doing everything from fine dining and event planning to culinary retail and sales. Along the way, I’ve had the chance to work at some pretty amazing places. These experiences have equipped me with a unique perspective and an understanding of what it takes to plan and execute exceptional experiences.</p>
    <p>I specialize in creating boutique experiences. Whether it’s an intimate gathering or a special celebration, I love working closely with my clients to plan events and design custom menus that reflect their tastes, preferences, and the freshest, in-season ingredients. From the initial consultation to shopping at local farmers markets, to wine selection, to event coordination and planning, I personally curate every detail. </p>
-   <p>My goal is to give you a personal chef experience, crafting meals tailored to your unique needs, whether it’s something casual or a more formal event. It’s all about creating something meaningful and memorable, where every dish was made just for you.
-author-social:
-  - icon: ion-logo-instagram
-    link: https://instagram.com/goodthingsfromscratch/
-  - icon: ion-logo-linkedin
-    link: https://linkedin.com/in/meredith-bearov/
+   <p>My goal is to give you a personal chef experience, crafting meals tailored to your unique needs, whether it’s something casual or a more formal event. It’s all about creating something meaningful and memorable, where every dish was made just for you.</p>
+collections:
+  reviews:
+    output: true
+include:
+  - _pages
+defaults:
+  - scope:
+      path: _pages
+    values:
+      permalink: /:basename:output_ext
 google-analytics: null
+author-social:
+  - link: https://instagram.com/goodthingsfromscratch/
+    icon: ion-logo-instagram
+  - link: https://linkedin.com/in/meredith-bearov/
+    icon: ion-logo-linkedin
 social:
   - icon: ion-logo-instagram
     link: https://instagram.com/goodthingsfromscratch/
@@ -40,18 +50,6 @@ plugins:
   - jekyll/tagging
 paginate: 6
 paginate_path: /page/:num
-defaults:
-  - values:
-      permalink: /:basename:output_ext
-    scope:
-      path: _pages
-# Folders to Include
-include:
-  - _pages
-collections:
-  reviews:
-    output: true
-# Tags
 tag_page_dir: tag
 tag_page_layout: tag_page
 tag_permalink_style: pretty
