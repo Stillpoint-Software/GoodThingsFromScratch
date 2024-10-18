@@ -135,7 +135,7 @@ $(document).ready(function() {
         elements_selector: '.lazy'
       })
 
-      $load_posts_button.text('Load More Posts');
+      $load_posts_button.text('Load More Stories');
       pagination_next_page_number++;
 
       if (pagination_next_page_number > pagination_available_pages_number) {
