@@ -1,6 +1,6 @@
 <div class="container">
     <h1>Testimonials</h1>
-    <div class="main-carousel" data-flickity='{ "groupCells": '80%', "wrapAround": true }'>
+    <div class="main-carousel" data-flickity='{ "groupCells": "80%", "wrapAround": true }'>
         {% if site.reviews.size > 0 %}
         {% assign sortedreviews = site.reviews | sort: 'order'%}
         {% for review in site.reviews %}
