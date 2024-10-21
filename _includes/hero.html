@@ -1,6 +1,6 @@
 {% if page.id %}
   {% assign class = 'hero--post' %}
-{% elsif page.path contains '_pages' or page.url contains '404' %}
+{% elsif page.path contains '_pages' or page.url contains '404' or page.title contains 'Story' %}
   {% assign class = 'hero--page' %}
 {% else %}
   {% assign class = 'hero--home' %}
@@ -52,7 +52,7 @@
 
   </div>
 
-  {% elsif page.path contains '_pages' or page.url contains '404' %}
+  {% elsif page.path contains '_pages' or page.url contains '404' or page.title contains 'Story'%}
   <div class="hero__image">
     <img class="lazy" data-src="{{site.baseurl}}{{page.image}}" alt="{{page.title}}">
   </div>
