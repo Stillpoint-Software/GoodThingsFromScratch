@@ -1,18 +1,17 @@
 <div class="container">
     <!-- <h1>Testimonials</h1> -->
-    <div class="carousel main-carousel" data-flickity='{ "groupCells": "80%", "wrapAround": true, "cellAlign": "left" }'>
+    <div class="main-carousel" data-flickity='{ "groupCells": "80%", "wrapAround": true, "cellAlign": "left"}'>
         {% if site.reviews.size > 0 %}
         {% assign sortedreviews = site.reviews | sort: 'order'%}
         {% for review in site.reviews %}
         <div class="carousel-cell">
-           <p class="blockquote__text"> 
-            {% if review.description %}{{ review.description }}{% else %}{{ review.content |
-            strip_html | truncate: 110, "" }}{% endif %}
+            <p class="blockquote__text">
+                {% if review.description %}{{ review.description }}{% else %}{{ review.content |
+                strip_html | truncate: 110, "" }}{% endif %}
             </p>
             <div class="blockquote__cite">{{review.author}}</div>
         </div>
         {% endfor %}
         {% endif %}
     </div>
-    </div>
-
+</div>
