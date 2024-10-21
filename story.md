@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Story
 image: /assets/stbarth-girl.jpg
 permalink: /story/
@@ -8,7 +8,7 @@ pagination:
 date: 2024-10-30
 navorder: 3
 ---
-
+{% include hero.html %}
 <div class="container">
     <div class="row">
         <div class="col col-12 col-d-10 col-m-12 push-m-0 push-d-1">
