@@ -45,11 +45,13 @@ social:
 markdown: kramdown
 permalink: pretty
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll/tagging
-paginate: 6
-paginate_path: /page/:num
+pagination:
+  enabled: true
+  per_page: 6   # Number of posts per page
+  permalink: "/story/page:num/"
 tag_page_dir: tag
 tag_page_layout: tag_page
 tag_permalink_style: pretty

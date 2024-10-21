@@ -12,7 +12,7 @@ layout: default
                 <h1>Recent Stories</h1>
                 <div class="row grid">
                     {% if site.posts.size > 0 %}
-                    {% for post in site.posts | limit: 3 %}
+                    {% for post in site.posts limit: 3 %}
                     {% include article-content.html %}
                     {% endfor %}
                     {% endif %}

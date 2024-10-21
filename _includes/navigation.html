@@ -4,12 +4,14 @@
   </li>
   {% assign sortedpages = site.pages | sort: 'navorder'%}
   {% for page in sortedpages %}
-    {% unless page.name == 'tags.html' or page.name == '404.html' %}
-      {% if page.title and page.title !='Welcome' %}
-      <li class="nav__item">
-        <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
-      </li>
-      {% endif %}
-    {% endunless %}
+  {% unless page.name == 'tags.html' or page.name == '404.html' %}
+  {% if page.title and page.title !='Welcome' %}
+  {% unless page.url contains "/page" %}
+  <li class="nav__item">
+    <a href="{{ page.url | prepend: site.baseurl }}" class="nav__link">{{ page.title }}</a>
+  </li>
+  {% endunless %}
+  {% endif %}
+  {% endunless %}
   {% endfor %}
 </ul>
