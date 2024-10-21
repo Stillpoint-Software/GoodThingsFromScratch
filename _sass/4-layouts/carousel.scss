@@ -1,3 +1,7 @@
+.carousel {
+  background: #fff;
+}
+
 .carousel-cell {
   width: 30%;
   height: 200px;
@@ -42,9 +46,40 @@
   color: $brand-color;
   text-transform: uppercase;
   text-align: right;
-  padding-right: 5px;
+  padding-right: 10px;
 }
 
 .carousel-cell:before {
-  text-align: center;
+  text-align: left;
+}
+
+.flickity-button {
+  background: $blue-gray;
+}
+.flickity-button:hover {
+  background: $brand-color;
+}
+
+.flickity-prev-next-button {
+  width: 30px;
+  height: 30px;
+}
+/* icon color */
+.flickity-button-icon {
+  fill: white;
+}
+/* position outside */
+.flickity-prev-next-button.previous {
+  left: -40px;
+
+  @media only screen and (max-width: $mobile) {
+    left: -15px
+    }
+}
+
+.flickity-prev-next-button.next {
+  right: -40px;
+  @media only screen and (max-width: $mobile) {
+    right: -20px
+  }
 }
