@@ -5,6 +5,9 @@ image: /assets/stbarth-girl.jpg
 permalink: /story/
 pagination:
     enabled: true
+    sort_field: 'date'
+    sort_reverse: true
+    per_page: 3
 date: 2024-10-30
 navorder: 3
 ---
