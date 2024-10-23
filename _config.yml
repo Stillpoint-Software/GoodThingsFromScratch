@@ -2,16 +2,16 @@ title: Stillpoint Software Inc.
 logo: /assets/brand-logo.svg
 description: Software at enterprise scale
 baseurl: ""
-url: https://goodthingsfromscratch.netlify.app
+url: https://stillpointsoftware.web.netlify.app
 hero:
   hero__image: /assets/brand-logo.png
   hero__title:
   hero__description: 
 author:
-  name: Meredith Bearov
-  bio: Hi, my name is Meredith Bearov. I’ve spent over 20 years in the world of high-end food and hospitality, doing everything from fine dining and event planning to culinary retail and sales. Along the way, I’ve had the chance to work at some pretty amazing places. These experiences have equipped me with a unique perspective and an understanding of what it takes to plan and execute exceptional experiences.
-  image: /assets/food1.jpg
-  avatar: /assets/profile-picture1.png
+  name: 
+  bio: 
+  image: 
+  avatar: 
 contact:
   description: Have any questions? Reach out to us from our contact form and we will get back to you shortly.
 collections:

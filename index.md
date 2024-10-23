@@ -3,7 +3,7 @@ layout: default
 ---
 
    <div class="container">
-   <div class="row" ></div>
+   <div class="row" style="padding-top: 60px;" ></div>
     <div class="row" >
         <div class="col-4" style="padding-top: 20px;">
         <img class="lazy" data-src="//wsrv.nl/?url={{ site.url | absolute_url }}/assets/section1.jpg" alt="Startup thinking at enterprise scale" />
@@ -16,7 +16,7 @@ layout: default
             <p>If you want to improve your organizations technical agility, we want to talk.</p>
        </div>
     </div>
-       <div class="row" ></div>
+<div class="row" style="padding-top: 60px;" ></div>
     <div class="row">
         <div class="col-8">
          <h1 style="text-transform: uppercase;">Be Relevant - Act</h1>
@@ -27,7 +27,7 @@ layout: default
           <img class="lazy" data-src="//wsrv.nl/?url={{ site.url | absolute_url }}/assets/sub-section-1.jpg" alt="Startup thinking at enterprise scale" />
         </div>
     </div>
-       <div class="row" ></div>
+<div class="row" style="padding-top: 60px;" ></div>
     <div class="row">
       <div class="col-4">
         <img class="lazy" data-src="//wsrv.nl/?url={{ site.url | absolute_url }}/assets/section-2.jpg" alt="Use Your Stuff" />
@@ -38,7 +38,7 @@ layout: default
             <p>We build software that lets you integrate your business data and back-end systems directly into your communications flow and to quickly integrate with partners and vendors.</p>            
        </div>
     </div>
-       <div class="row" ></div>
+<div class="row" style="padding-top: 60px;" ></div>
     <div class="row">
         <div class="col-8">
          <h1 style="text-transform: uppercase;">Let's Make a plan</h1>
@@ -50,7 +50,7 @@ layout: default
           <img class="lazy" data-src="//wsrv.nl/?url={{ site.url | absolute_url }}/assets/sub-section-3.jpg" alt="Let's Make a Plan" />
        </div>
     </div>
-       <div class="row" ></div>
+<div class="row" style="padding-top: 60px;" ></div>
      <div class="row">
       <div class="col-4">
         <img class="lazy" data-src="//wsrv.nl/?url={{ site.url | absolute_url }}/assets/section-4.5.jpg" alt="Our Technology" />
