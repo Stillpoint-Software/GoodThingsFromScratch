@@ -7,7 +7,7 @@ pagination:
     enabled: true
     sort_field: 'date'
     sort_reverse: true
-    per_page: 3
+    per_page: 9
 date: 2024-10-30
 navorder: 3
 ---
