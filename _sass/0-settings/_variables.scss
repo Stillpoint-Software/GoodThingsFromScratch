@@ -11,16 +11,17 @@ $global-transition: all 0.35s;
 // *****************
 // Color Variables
 // *****************
+$brand-color: #9caa58;
+$dark: #4c281a;
 $brand-color: #2c3b75;
 $dark: #454545;
 $gray: #f0f0f0;
 $blue-gray: #757679;
-$teal: #15b5e0;
 $white: #fff;
 
 // Text color
 $text-color: $dark;
-$text-color-alt: #757679;
+$text-color-alt: #8f4405;
 
 // Background color
 $background-color: #fff;
@@ -51,7 +52,7 @@ $base-font-size: 18px;
 $base-font-style: normal;
 $base-font-variant: normal;
 $base-font-weight: normal;
-$base-font-family: "Segoe UI", Ubuntu, Helvetica, Arial, sans-serif;
+$base-font-family: "Roboto", sans-serif;
 $base-line-height: 1.7;
 $base-letter-spacing: -0.008em;
 

@@ -2,7 +2,7 @@ title: Stillpoint Software Inc.
 logo: /assets/brand-logo.svg
 description: Software at enterprise scale
 baseurl: ""
-url: https://stillpointsoftware.web.netlify.app
+url: https://GoodThingsFromScratch.netlify.app
 hero:
   hero__image: /assets/food3.jpg 
   hero__title: Good Things from Scratch
@@ -10,12 +10,17 @@ hero:
     Personal Chef and Boutique Gatherings <br> 
     Coachella Valley
 author:
-  name: 
-  bio: 
-  image: 
-  avatar: 
+  name: Meredith Bearov
+  bio: Hi, my name is Meredith Bearov. I’ve spent over 20 years in the world of high-end food and hospitality, doing everything from fine dining and event planning to culinary retail and sales. Along the way, I’ve had the chance to work at some pretty amazing places. These experiences have equipped me with a unique perspective and an understanding of what it takes to plan and execute exceptional experiences.
+  image: /assets/food1.jpg
+  avatar: /assets/profile-picture1.png
 contact:
-  description: Have any questions? Reach out to us from our contact form and we will get back to you shortly.
+  description: I'd love to hear from you. Please fill out the form below if you have any questions or would like to talk about an event.
+sitedescription: |-
+  <h1>Welcome</h1>
+   <p>My name is Meredith Bearov. I’ve spent over 20 years in the world of high-end food and hospitality, doing everything from fine dining and event planning to culinary retail and sales. Along the way, I’ve had the chance to work at some pretty amazing places. These experiences have equipped me with a unique perspective and an understanding of what it takes to plan and execute exceptional experiences.</p>
+   <p>I specialize in creating boutique experiences. Whether it’s an intimate gathering or a special celebration, I love working closely with my clients to plan events and design custom menus that reflect their tastes, preferences, and the freshest, in-season ingredients. From the initial consultation to shopping at local farmers markets, to wine selection, to event coordination and planning, I personally curate every detail. </p>
+   <p>My goal is to give you a personal chef experience, crafting meals tailored to your unique needs, whether it’s something casual or a more formal event. It’s all about creating something meaningful and memorable, where every dish was made just for you.</p>
 collections:
   reviews:
     output: true
@@ -28,15 +33,15 @@ defaults:
       permalink: /:basename:output_ext
 google-analytics: null
 author-social:
-  - link: https://instagram.com/stillpoint_software/
+  - link: https://instagram.com/goodthingsfromscratch//
     icon: ion-logo-instagram
-  - link: https://linkedin.com//company/stillpoint-software/
+  - link: https://linkedin.com/in/meredith-bearov/
     icon: ion-logo-linkedin
 social:
   - icon: ion-logo-instagram
-    link: https://instagram.com/stillpoint_software/
+    link: https://instagram.com/goodthingsfromscratch//
   - icon: ion-logo-linkedin
-    link: https://linkedin.com//company/stillpoint-software/
+    link: https://linkedin.com/in/meredith-bearov/
 markdown: kramdown
 permalink: pretty
 plugins:
