@@ -1,0 +1,34 @@
+
+.flex1 {
+	display: flex;
+	justify-content: center;
+	background-color: $background-color;
+}
+.flex2 {
+	display: flex;
+	justify-content: space-around;
+	background-color: $background-color;
+}
+.flex3 {
+	display: flex;
+	justify-content: space-between;
+	background-color: $background-color;
+}
+.flex4 {
+	display: flex;
+	justify-content: flex-start;
+	background-color: $background-color;
+}
+.flex5 {
+	display: flex;
+	justify-content: flex-end;
+	background-color: $background-color;
+}
+.flex-items {
+	background-color: $background-color;
+	width: 100px;
+	height: 50px;
+	margin: 10px;
+	text-align: center;
+	font-size: 40px;
+}
