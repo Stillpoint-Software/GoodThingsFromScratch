@@ -1,10 +1,10 @@
-title: Stillpoint Software Inc.
-logo: /assets/brand-logo.svg
-description: Software at enterprise scale
+title: Good Things from Scratch
+logo: /assets/logo.svg
+description: Good Things from Scratch
 baseurl: ""
-url: https://GoodThingsFromScratch.netlify.app
+url: https://goodthingsfromscratch.netlify.app
 hero:
-  hero__image: /assets/food3.jpg 
+  hero__image: /assets/food3.jpg
   hero__title: Good Things from Scratch
   hero__description: |-
     Personal Chef and Boutique Gatherings <br> 
@@ -33,13 +33,13 @@ defaults:
       permalink: /:basename:output_ext
 google-analytics: null
 author-social:
-  - link: https://instagram.com/goodthingsfromscratch//
+  - link: https://instagram.com/goodthingsfromscratch/
     icon: ion-logo-instagram
   - link: https://linkedin.com/in/meredith-bearov/
     icon: ion-logo-linkedin
 social:
   - icon: ion-logo-instagram
-    link: https://instagram.com/goodthingsfromscratch//
+    link: https://instagram.com/goodthingsfromscratch/
   - icon: ion-logo-linkedin
     link: https://linkedin.com/in/meredith-bearov/
 markdown: kramdown
