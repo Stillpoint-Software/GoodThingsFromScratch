@@ -4,9 +4,11 @@ description: Software at enterprise scale
 baseurl: ""
 url: https://stillpointsoftware.web.netlify.app
 hero:
-  hero__image: /assets/brand-logo.png
-  hero__title:
-  hero__description: 
+  hero__image: /assets/food3.jpg 
+  hero__title: Good Things from Scratch
+  hero__description: |-
+    Personal Chef and Boutique Gatherings <br> 
+    Coachella Valley
 author:
   name: 
   bio: 
