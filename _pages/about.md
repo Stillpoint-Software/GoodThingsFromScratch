@@ -22,11 +22,11 @@ These experiences have equipped me with a unique perspective and an understandin
 > Let things taste of what they are.  
 >  <cite>Alice Waters</cite>
 
-**PRIVATE CHEF \-**  I discovered my love of gardening and food at an early age, thanks to my grandmother. She worked as a Virginia home extension agent in the 1930s and '40s, teaching families how to can, cook, and grow their own food. She was a serious gardener, and some of my earliest memories are of being out in the garden with her.
+***PRIVATE CHEF \-***  I discovered my love of gardening and food at an early age, thanks to my grandmother. She worked as a Virginia home extension agent in the 1930s and '40s, teaching families how to can, cook, and grow their own food. She was a serious gardener, and some of my earliest memories are of being out in the garden with her.
 
-The best meals start with good, seasonal ingredients. Whether I’m at a local farmers market or in my own garden, I’m always looking for the freshest produce to build a meal around.
+The best meals start with good, **seasonal** ingredients. Whether I’m at a local farmers market or in my own **garden**, I’m always looking for the freshest produce to build a meal around.
 
-I specialize in creating personalized experiences for my clients. Whether it’s an intimate dinner or a special gathering, I work closely with you to design menus that reflect your tastes and preferences. From the initial consultation to shopping for ingredients, selecting wines, and coordinating the event, I handle every detail. We’ll discuss your goals and vision, and I’ll make sure the final experience is exactly what you want.
+I specialize in creating personalized experiences for my clients. Whether it’s an **intimate dinner** or a **special gathering**, I work closely with you to design menus that reflect your tastes and preferences. From the initial consultation to shopping for ingredients, selecting wines, and coordinating the event, I **curate** every detail. We’ll discuss your goals and vision, and I’ll make sure the final experience is exactly what you want.
 
 ***WINE \-***  I’ve had the opportunity to work with some spectacular wine collections. As **Wine Director** and **Cellar Master** at The Inn at Little Washington, I was responsible for managing a 92-page wine list and overseeing a cellar with more than 29,000 bottles and 2,400 labels. At Citronnelle, I was blessed to work for Michel Richard and Kathryn Morgan M.S., and to eventually assume the role of Wine Director;  Citronnelle will forever be a **magical** place.
 
