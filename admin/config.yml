@@ -49,7 +49,7 @@ collections:
             fields:
               - { label: "Description", name: "description", widget: "text", required: false }
   - name: "post" # Used in routes, ie.: /admin/collections/:slug/edit
-    label: "Posta" 
+    label: "Posts" 
     folder: "_posts" 
     sort: "date:desc" # Default is title:asc
     create: true # Allow users to create new documents
