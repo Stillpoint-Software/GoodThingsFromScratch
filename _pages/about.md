@@ -24,7 +24,7 @@ These experiences have equipped me with a unique perspective and an understandin
 
 ***PRIVATE CHEF \-***  I discovered my love of gardening and food at an early age, thanks to my grandmother. She worked as a Virginia home extension agent in the 1930s and '40s, teaching families how to can, cook, and grow their own food. She was a serious gardener, and some of my earliest memories are of being out in the garden with her.
 
-The best meals start with good, **seasonal** ingredients. Whether I’m at a local farmers market or in my own **garden**, I’m always looking for the freshest produce to build a meal around.
+She taught me that the best meals start with good, **seasonal** ingredients. Whether I’m at a local farmers market or in my own **garden**, I’m always looking for the freshest ingredients to build a meal around.
 
 I specialize in creating personalized experiences for my clients. Whether it’s an **intimate dinner** or a **special gathering**, I work closely with you to design menus that reflect your tastes and preferences. From the initial consultation to shopping for ingredients, selecting wines, and coordinating the event, I **curate** every detail. We’ll discuss your goals and vision, and I’ll make sure the final experience is exactly what you want.
 
